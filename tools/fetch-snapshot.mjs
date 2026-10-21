@@ -10,9 +10,33 @@ if (KEY.includes("%")) KEY = decodeURIComponent(KEY); // Encoding 키를 넣어�
 const ENDPOINT = "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInDong";
 const PAGE_SIZE = 1000;
 
+// 서울 25개 구 (시군구 코드, 가나다순)
 const DISTRICTS = [
-  { name: "서울 마포구", code: "11440" },
-  { name: "서울 강남구", code: "11680" },
+  { name: "서울 강남구",   code: "11680" },
+  { name: "서울 강동구",   code: "11740" },
+  { name: "서울 강북구",   code: "11305" },
+  { name: "서울 강서구",   code: "11500" },
+  { name: "서울 관악구",   code: "11620" },
+  { name: "서울 광진구",   code: "11215" },
+  { name: "서울 구로구",   code: "11530" },
+  { name: "서울 금천구",   code: "11545" },
+  { name: "서울 노원구",   code: "11350" },
+  { name: "서울 도봉구",   code: "11320" },
+  { name: "서울 동대문구", code: "11230" },
+  { name: "서울 동작구",   code: "11590" },
+  { name: "서울 마포구",   code: "11440" },
+  { name: "서울 서대문구", code: "11410" },
+  { name: "서울 서초구",   code: "11650" },
+  { name: "서울 성동구",   code: "11200" },
+  { name: "서울 성북구",   code: "11290" },
+  { name: "서울 송파구",   code: "11710" },
+  { name: "서울 양천구",   code: "11470" },
+  { name: "서울 영등포구", code: "11560" },
+  { name: "서울 용산구",   code: "11170" },
+  { name: "서울 은평구",   code: "11380" },
+  { name: "서울 종로구",   code: "11110" },
+  { name: "서울 중구",     code: "11140" },
+  { name: "서울 중랑구",   code: "11260" },
 ];
 
 // 업종 5개: 응답의 대분류(indsLclsNm)·중분류(indsMclsNm)·소분류(indsSclsNm) 이름으로 나눠요

@@ -271,6 +271,34 @@
   }
   .btn:active { transform: scale(0.97); }
 
+  /* 홍보 문구 카드 */
+  .copy-list { list-style: none; margin-top: 16px; display: grid; gap: 12px; }
+  .copy-item {
+    padding: 16px;
+    border-radius: var(--radius);
+    background: var(--muted);
+  }
+  .copy-tag { font-size: 12px; font-weight: 700; color: var(--muted-foreground); }
+  .copy-text { margin-top: 6px; font-size: 15px; line-height: 1.6; white-space: pre-line; }
+  .copy-text .hashtags { color: var(--primary); font-weight: 600; }
+  .btn-outline {
+    margin-top: 12px;
+    height: 36px;
+    padding: 0 14px;
+    border: 1.5px solid var(--primary);
+    border-radius: 10px;
+    background: var(--card);
+    color: var(--primary);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color .15s, color .15s, transform .1s;
+  }
+  .btn-outline:hover { background: var(--primary-soft); }
+  .btn-outline:active { transform: scale(0.97); }
+  .btn-outline.done { background: var(--primary); color: var(--primary-foreground); }
+
   /* 📐 화면이 768px 이상이면: 선택 영역 가로, 카드 2단 */
   @media (min-width: 768px) {
     .wrap { padding: 32px 32px 64px; }
@@ -328,15 +356,11 @@
         <div id="holiday-body" aria-live="polite"></div>
       </section>
 
-      <!-- Issue #3: 홍보 문구 초안 카드 자리 -->
+      <!-- Issue #3: 홍보 문구 초안 -->
       <section class="card" id="copy-card">
         <h2>홍보 문구 초안</h2>
-        <div class="skeleton-group" aria-hidden="true">
-          <span class="skeleton" style="width:100%"></span>
-          <span class="skeleton" style="width:85%"></span>
-          <span class="skeleton" style="width:60%"></span>
-        </div>
-        <p class="placeholder">곧 만들어요.</p>
+        <p class="card-desc">1위 동네와 다음 공휴일로 만든 SNS 문구예요.</p>
+        <div id="copy-body"></div>
       </section>
     </div>
   </div>
@@ -433,7 +457,8 @@
 
   // 지금 고른 값 (Issue #3 홍보 문구도 이 값을 같이 써요)
   //   holiday: 다음 공휴일 { localName, date } — 불러오기 전이나 실패하면 null
-  const state = { districtIndex: 0, categoryId: SNAPSHOT.categories[0].id, holiday: null };
+  //   holidayStatus: "loading" | "ok" | "error"
+  const state = { districtIndex: 0, categoryId: SNAPSHOT.categories[0].id, holiday: null, holidayStatus: "loading" };
 
   // 고른 구·업종으로 가게 수가 많은 동네 5곳
   function getTop5() {
@@ -489,9 +514,10 @@
     }));
   }
 
-  // 구·업종이 바뀌면 여기서 한 번에 다시 그려요 (Issue #3 홍보 문구도 여기에 추가)
+  // 구·업종이 바뀌면 여기서 한 번에 다시 그려요 — TOP5와 홍보 문구가 항상 함께 바뀌어요
   function renderAll() {
     renderTop5();
+    renderCopy();
   }
 
   function setupControls() {
@@ -588,14 +614,111 @@
       if (!res.ok) throw new Error("HTTP " + res.status);
       const list = await res.json();
       state.holiday = list.find(h => daysUntil(h.date) >= 0) || null;
+      state.holidayStatus = "ok";
       renderHoliday(list);
     } catch (err) {
       console.error("공휴일 불러오기 실패:", err);
       state.holiday = null;
+      state.holidayStatus = "error";
       renderHolidayError();
     }
-    // Issue #3: 여기서 홍보 문구 카드도 다시 그려요 (TOP5는 다시 그리지 않아 막대가 두 번 움직이지 않게)
+    // 홍보 문구만 다시 그려요 (TOP5는 다시 그리지 않아 막대가 두 번 움직이지 않게)
+    renderCopy();
   }
+
+  // ── Issue #3: 홍보 문구 초안 ──
+
+  // 업종마다 문구에 넣을 이모지와 부르는 말
+  const COPY_WORDS = {
+    cafe:    { emoji: "☕", noun: "카페" },
+    food:    { emoji: "🍽️", noun: "맛집" },
+    academy: { emoji: "📚", noun: "학원" },
+    beauty:  { emoji: "💇", noun: "미용실" },
+    conv:    { emoji: "🏪", noun: "편의점" },
+  };
+
+  function shortDate(dateStr) {
+    const [y, m, d] = dateStr.split("-").map(Number);
+    return new Date(y, m - 1, d).toLocaleDateString("ko-KR", { month: "long", day: "numeric", weekday: "short" });
+  }
+
+  // 1위 동네·업종·공휴일로 문구 2개 만들기
+  function makeCopies(dong, guName, word, holiday) {
+    const tags = `#${dong}${word.noun} #${guName}${word.noun} #동네${word.noun}`;
+    if (holiday) {
+      const name = holiday.localName;
+      const dday = ddayText(daysUntil(holiday.date));
+      return [
+        { tag: "인스타그램 · 친근하게",
+          text: `${word.emoji} ${dong} ${word.noun} 찾고 계셨나요?\n${name}까지 ${dday}! ${dong} 이웃만을 위한 ${name} 특별 혜택을 준비했어요 🎁`,
+          tags: `${tags} #${name.replace(/\s/g, "")}` },
+        { tag: "전단·문자 · 짧게",
+          text: `[${dong} 한정] ${name} 맞이 ${word.noun} 이벤트 ${word.emoji}\n전단을 보여 주시면 10% 할인 · ${shortDate(holiday.date)}까지`,
+          tags },
+      ];
+    }
+    return [
+      { tag: "인스타그램 · 친근하게",
+        text: `${word.emoji} ${dong} ${word.noun} 찾고 계셨나요?\n${dong} 이웃만을 위한 특별 혜택을 준비했어요 🎁`,
+        tags },
+      { tag: "전단·문자 · 짧게",
+        text: `[${dong} 한정] ${word.noun} 이벤트 ${word.emoji}\n전단을 보여 주시면 10% 할인`,
+        tags },
+    ];
+  }
+
+  function renderCopy() {
+    const body = document.getElementById("copy-body");
+    const top5 = getTop5();
+    if (top5.length === 0 || top5[0].count === 0) {
+      body.innerHTML = `<p class="loading-text">TOP5 동네가 없어서 문구를 만들 수 없어요. 다른 업종을 골라 보세요.</p>`;
+      return;
+    }
+
+    const dong = top5[0].name;
+    const guName = SNAPSHOT.districts[state.districtIndex].name.split(" ").pop(); // "서울 마포구" → "마포구"
+    const copies = makeCopies(dong, guName, COPY_WORDS[state.categoryId], state.holiday);
+
+    const note = {
+      loading: "공휴일을 불러오는 중이라 잠시 뒤 공휴일이 들어간 문구로 바뀌어요.",
+      error: "공휴일을 불러오지 못해 공휴일 없이 만들었어요.",
+      ok: state.holiday ? `1위 ${dong} · ${categoryLabel()} · ${state.holiday.localName} ${ddayText(daysUntil(state.holiday.date))} 기준` : `1위 ${dong} · ${categoryLabel()} 기준`,
+    }[state.holidayStatus];
+
+    body.innerHTML = `
+      <ul class="copy-list">
+        ${copies.map((c, i) => `
+          <li class="copy-item">
+            <p class="copy-tag">${c.tag}</p>
+            <p class="copy-text" id="copy-text-${i}">${esc(c.text)}\n<span class="hashtags">${esc(c.tags)}</span></p>
+            <button type="button" class="btn-outline" data-copy="${i}">복사</button>
+          </li>`).join("")}
+      </ul>
+      <p class="meta">${esc(note)}</p>`;
+  }
+
+  // 클립보드에 넣기 (안 되는 브라우저는 옛날 방식으로)
+  async function copyText(text) {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      const area = document.createElement("textarea");
+      area.value = text;
+      document.body.appendChild(area);
+      area.select();
+      document.execCommand("copy");
+      area.remove();
+    }
+  }
+
+  document.getElementById("copy-body").addEventListener("click", async e => {
+    const btn = e.target.closest("[data-copy]");
+    if (!btn) return;
+    await copyText(document.getElementById(`copy-text-${btn.dataset.copy}`).textContent);
+    btn.textContent = "복사했어요 ✓";
+    btn.classList.add("done");
+    setTimeout(() => { btn.textContent = "복사"; btn.classList.remove("done"); }, 2000);
+  });
 
   document.getElementById("holiday-api").textContent = API.holidays;
   document.getElementById("holiday-raw").href = API.holidays;

@@ -25,171 +25,6 @@
   ],
   "districts": [
     {
-      "name": "서울 마포구",
-      "dongs": [
-        {
-          "name": "공덕동",
-          "counts": {
-            "cafe": 70,
-            "food": 464,
-            "academy": 97,
-            "beauty": 64,
-            "conv": 20
-          }
-        },
-        {
-          "name": "대흥동",
-          "counts": {
-            "cafe": 96,
-            "food": 381,
-            "academy": 153,
-            "beauty": 48,
-            "conv": 28
-          }
-        },
-        {
-          "name": "도화동",
-          "counts": {
-            "cafe": 63,
-            "food": 424,
-            "academy": 67,
-            "beauty": 44,
-            "conv": 21
-          }
-        },
-        {
-          "name": "망원1동",
-          "counts": {
-            "cafe": 134,
-            "food": 614,
-            "academy": 62,
-            "beauty": 64,
-            "conv": 30
-          }
-        },
-        {
-          "name": "망원2동",
-          "counts": {
-            "cafe": 59,
-            "food": 275,
-            "academy": 69,
-            "beauty": 58,
-            "conv": 17
-          }
-        },
-        {
-          "name": "상암동",
-          "counts": {
-            "cafe": 172,
-            "food": 786,
-            "academy": 141,
-            "beauty": 47,
-            "conv": 51
-          }
-        },
-        {
-          "name": "서강동",
-          "counts": {
-            "cafe": 105,
-            "food": 497,
-            "academy": 119,
-            "beauty": 83,
-            "conv": 28
-          }
-        },
-        {
-          "name": "서교동",
-          "counts": {
-            "cafe": 556,
-            "food": 2676,
-            "academy": 399,
-            "beauty": 361,
-            "conv": 119
-          }
-        },
-        {
-          "name": "성산1동",
-          "counts": {
-            "cafe": 56,
-            "food": 238,
-            "academy": 77,
-            "beauty": 25,
-            "conv": 27
-          }
-        },
-        {
-          "name": "성산2동",
-          "counts": {
-            "cafe": 59,
-            "food": 268,
-            "academy": 114,
-            "beauty": 41,
-            "conv": 32
-          }
-        },
-        {
-          "name": "신수동",
-          "counts": {
-            "cafe": 56,
-            "food": 211,
-            "academy": 71,
-            "beauty": 44,
-            "conv": 13
-          }
-        },
-        {
-          "name": "아현동",
-          "counts": {
-            "cafe": 56,
-            "food": 272,
-            "academy": 92,
-            "beauty": 49,
-            "conv": 18
-          }
-        },
-        {
-          "name": "연남동",
-          "counts": {
-            "cafe": 214,
-            "food": 947,
-            "academy": 68,
-            "beauty": 108,
-            "conv": 30
-          }
-        },
-        {
-          "name": "염리동",
-          "counts": {
-            "cafe": 45,
-            "food": 219,
-            "academy": 75,
-            "beauty": 24,
-            "conv": 15
-          }
-        },
-        {
-          "name": "용강동",
-          "counts": {
-            "cafe": 77,
-            "food": 421,
-            "academy": 122,
-            "beauty": 31,
-            "conv": 30
-          }
-        },
-        {
-          "name": "합정동",
-          "counts": {
-            "cafe": 136,
-            "food": 644,
-            "academy": 102,
-            "beauty": 90,
-            "conv": 32
-          }
-        }
-      ]
-    },
-    {
       "name": "서울 강남구",
       "dongs": [
         {
@@ -410,6 +245,4176 @@
             "academy": 240,
             "beauty": 242,
             "conv": 56
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 강동구",
+      "dongs": [
+        {
+          "name": "강일동",
+          "counts": {
+            "cafe": 31,
+            "food": 110,
+            "academy": 104,
+            "beauty": 30,
+            "conv": 21
+          }
+        },
+        {
+          "name": "고덕1동",
+          "counts": {
+            "cafe": 22,
+            "food": 100,
+            "academy": 82,
+            "beauty": 28,
+            "conv": 9
+          }
+        },
+        {
+          "name": "고덕2동",
+          "counts": {
+            "cafe": 48,
+            "food": 228,
+            "academy": 79,
+            "beauty": 46,
+            "conv": 13
+          }
+        },
+        {
+          "name": "길동",
+          "counts": {
+            "cafe": 104,
+            "food": 764,
+            "academy": 112,
+            "beauty": 129,
+            "conv": 39
+          }
+        },
+        {
+          "name": "둔촌1동",
+          "counts": {
+            "cafe": 16,
+            "food": 55,
+            "academy": 22,
+            "beauty": 10,
+            "conv": 5
+          }
+        },
+        {
+          "name": "둔촌2동",
+          "counts": {
+            "cafe": 48,
+            "food": 226,
+            "academy": 76,
+            "beauty": 62,
+            "conv": 21
+          }
+        },
+        {
+          "name": "명일1동",
+          "counts": {
+            "cafe": 76,
+            "food": 339,
+            "academy": 134,
+            "beauty": 65,
+            "conv": 13
+          }
+        },
+        {
+          "name": "명일2동",
+          "counts": {
+            "cafe": 55,
+            "food": 174,
+            "academy": 250,
+            "beauty": 33,
+            "conv": 15
+          }
+        },
+        {
+          "name": "상일1동",
+          "counts": {
+            "cafe": 39,
+            "food": 211,
+            "academy": 67,
+            "beauty": 23,
+            "conv": 16
+          }
+        },
+        {
+          "name": "상일2동",
+          "counts": {
+            "cafe": 14,
+            "food": 38,
+            "academy": 36,
+            "beauty": 1,
+            "conv": 7
+          }
+        },
+        {
+          "name": "성내1동",
+          "counts": {
+            "cafe": 83,
+            "food": 330,
+            "academy": 93,
+            "beauty": 38,
+            "conv": 15
+          }
+        },
+        {
+          "name": "성내2동",
+          "counts": {
+            "cafe": 70,
+            "food": 374,
+            "academy": 67,
+            "beauty": 80,
+            "conv": 19
+          }
+        },
+        {
+          "name": "성내3동",
+          "counts": {
+            "cafe": 76,
+            "food": 503,
+            "academy": 140,
+            "beauty": 100,
+            "conv": 24
+          }
+        },
+        {
+          "name": "암사1동",
+          "counts": {
+            "cafe": 48,
+            "food": 317,
+            "academy": 53,
+            "beauty": 89,
+            "conv": 25
+          }
+        },
+        {
+          "name": "암사2동",
+          "counts": {
+            "cafe": 30,
+            "food": 138,
+            "academy": 57,
+            "beauty": 32,
+            "conv": 8
+          }
+        },
+        {
+          "name": "암사3동",
+          "counts": {
+            "cafe": 16,
+            "food": 56,
+            "academy": 85,
+            "beauty": 23,
+            "conv": 4
+          }
+        },
+        {
+          "name": "천호1동",
+          "counts": {
+            "cafe": 31,
+            "food": 231,
+            "academy": 67,
+            "beauty": 63,
+            "conv": 19
+          }
+        },
+        {
+          "name": "천호2동",
+          "counts": {
+            "cafe": 89,
+            "food": 619,
+            "academy": 91,
+            "beauty": 99,
+            "conv": 48
+          }
+        },
+        {
+          "name": "천호3동",
+          "counts": {
+            "cafe": 46,
+            "food": 373,
+            "academy": 47,
+            "beauty": 74,
+            "conv": 25
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 강북구",
+      "dongs": [
+        {
+          "name": "미아동",
+          "counts": {
+            "cafe": 43,
+            "food": 354,
+            "academy": 39,
+            "beauty": 88,
+            "conv": 26
+          }
+        },
+        {
+          "name": "번1동",
+          "counts": {
+            "cafe": 46,
+            "food": 345,
+            "academy": 36,
+            "beauty": 74,
+            "conv": 29
+          }
+        },
+        {
+          "name": "번2동",
+          "counts": {
+            "cafe": 18,
+            "food": 58,
+            "academy": 7,
+            "beauty": 16,
+            "conv": 7
+          }
+        },
+        {
+          "name": "번3동",
+          "counts": {
+            "cafe": 19,
+            "food": 90,
+            "academy": 34,
+            "beauty": 20,
+            "conv": 9
+          }
+        },
+        {
+          "name": "삼각산동",
+          "counts": {
+            "cafe": 29,
+            "food": 144,
+            "academy": 77,
+            "beauty": 33,
+            "conv": 9
+          }
+        },
+        {
+          "name": "삼양동",
+          "counts": {
+            "cafe": 25,
+            "food": 151,
+            "academy": 53,
+            "beauty": 42,
+            "conv": 11
+          }
+        },
+        {
+          "name": "송중동",
+          "counts": {
+            "cafe": 61,
+            "food": 485,
+            "academy": 93,
+            "beauty": 65,
+            "conv": 25
+          }
+        },
+        {
+          "name": "송천동",
+          "counts": {
+            "cafe": 40,
+            "food": 333,
+            "academy": 51,
+            "beauty": 82,
+            "conv": 21
+          }
+        },
+        {
+          "name": "수유1동",
+          "counts": {
+            "cafe": 32,
+            "food": 241,
+            "academy": 32,
+            "beauty": 46,
+            "conv": 23
+          }
+        },
+        {
+          "name": "수유2동",
+          "counts": {
+            "cafe": 28,
+            "food": 214,
+            "academy": 65,
+            "beauty": 61,
+            "conv": 18
+          }
+        },
+        {
+          "name": "수유3동",
+          "counts": {
+            "cafe": 91,
+            "food": 830,
+            "academy": 41,
+            "beauty": 100,
+            "conv": 36
+          }
+        },
+        {
+          "name": "우이동",
+          "counts": {
+            "cafe": 52,
+            "food": 321,
+            "academy": 18,
+            "beauty": 25,
+            "conv": 23
+          }
+        },
+        {
+          "name": "인수동",
+          "counts": {
+            "cafe": 48,
+            "food": 224,
+            "academy": 68,
+            "beauty": 71,
+            "conv": 28
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 강서구",
+      "dongs": [
+        {
+          "name": "가양1동",
+          "counts": {
+            "cafe": 271,
+            "food": 1510,
+            "academy": 154,
+            "beauty": 136,
+            "conv": 71
+          }
+        },
+        {
+          "name": "가양2동",
+          "counts": {
+            "cafe": 9,
+            "food": 60,
+            "academy": 13,
+            "beauty": 19,
+            "conv": 8
+          }
+        },
+        {
+          "name": "가양3동",
+          "counts": {
+            "cafe": 8,
+            "food": 40,
+            "academy": 21,
+            "beauty": 12,
+            "conv": 10
+          }
+        },
+        {
+          "name": "공항동",
+          "counts": {
+            "cafe": 50,
+            "food": 333,
+            "academy": 109,
+            "beauty": 46,
+            "conv": 42
+          }
+        },
+        {
+          "name": "등촌1동",
+          "counts": {
+            "cafe": 77,
+            "food": 371,
+            "academy": 68,
+            "beauty": 44,
+            "conv": 25
+          }
+        },
+        {
+          "name": "등촌2동",
+          "counts": {
+            "cafe": 19,
+            "food": 108,
+            "academy": 37,
+            "beauty": 31,
+            "conv": 15
+          }
+        },
+        {
+          "name": "등촌3동",
+          "counts": {
+            "cafe": 73,
+            "food": 406,
+            "academy": 139,
+            "beauty": 52,
+            "conv": 31
+          }
+        },
+        {
+          "name": "발산1동",
+          "counts": {
+            "cafe": 124,
+            "food": 580,
+            "academy": 300,
+            "beauty": 133,
+            "conv": 36
+          }
+        },
+        {
+          "name": "방화1동",
+          "counts": {
+            "cafe": 91,
+            "food": 439,
+            "academy": 163,
+            "beauty": 101,
+            "conv": 33
+          }
+        },
+        {
+          "name": "방화2동",
+          "counts": {
+            "cafe": 53,
+            "food": 309,
+            "academy": 32,
+            "beauty": 44,
+            "conv": 30
+          }
+        },
+        {
+          "name": "방화3동",
+          "counts": {
+            "cafe": 21,
+            "food": 85,
+            "academy": 33,
+            "beauty": 28,
+            "conv": 14
+          }
+        },
+        {
+          "name": "염창동",
+          "counts": {
+            "cafe": 78,
+            "food": 257,
+            "academy": 150,
+            "beauty": 43,
+            "conv": 28
+          }
+        },
+        {
+          "name": "우장산동",
+          "counts": {
+            "cafe": 58,
+            "food": 256,
+            "academy": 174,
+            "beauty": 67,
+            "conv": 22
+          }
+        },
+        {
+          "name": "화곡1동",
+          "counts": {
+            "cafe": 81,
+            "food": 713,
+            "academy": 76,
+            "beauty": 103,
+            "conv": 54
+          }
+        },
+        {
+          "name": "화곡2동",
+          "counts": {
+            "cafe": 14,
+            "food": 74,
+            "academy": 49,
+            "beauty": 29,
+            "conv": 10
+          }
+        },
+        {
+          "name": "화곡3동",
+          "counts": {
+            "cafe": 49,
+            "food": 295,
+            "academy": 92,
+            "beauty": 63,
+            "conv": 14
+          }
+        },
+        {
+          "name": "화곡4동",
+          "counts": {
+            "cafe": 33,
+            "food": 296,
+            "academy": 45,
+            "beauty": 59,
+            "conv": 17
+          }
+        },
+        {
+          "name": "화곡6동",
+          "counts": {
+            "cafe": 59,
+            "food": 496,
+            "academy": 43,
+            "beauty": 43,
+            "conv": 28
+          }
+        },
+        {
+          "name": "화곡8동",
+          "counts": {
+            "cafe": 32,
+            "food": 268,
+            "academy": 33,
+            "beauty": 59,
+            "conv": 14
+          }
+        },
+        {
+          "name": "화곡본동",
+          "counts": {
+            "cafe": 29,
+            "food": 277,
+            "academy": 64,
+            "beauty": 57,
+            "conv": 27
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 관악구",
+      "dongs": [
+        {
+          "name": "낙성대동",
+          "counts": {
+            "cafe": 80,
+            "food": 561,
+            "academy": 60,
+            "beauty": 57,
+            "conv": 16
+          }
+        },
+        {
+          "name": "난곡동",
+          "counts": {
+            "cafe": 13,
+            "food": 100,
+            "academy": 34,
+            "beauty": 42,
+            "conv": 9
+          }
+        },
+        {
+          "name": "난향동",
+          "counts": {
+            "cafe": 8,
+            "food": 45,
+            "academy": 25,
+            "beauty": 16,
+            "conv": 4
+          }
+        },
+        {
+          "name": "남현동",
+          "counts": {
+            "cafe": 35,
+            "food": 247,
+            "academy": 36,
+            "beauty": 32,
+            "conv": 21
+          }
+        },
+        {
+          "name": "대학동",
+          "counts": {
+            "cafe": 150,
+            "food": 433,
+            "academy": 70,
+            "beauty": 55,
+            "conv": 37
+          }
+        },
+        {
+          "name": "미성동",
+          "counts": {
+            "cafe": 34,
+            "food": 217,
+            "academy": 68,
+            "beauty": 55,
+            "conv": 21
+          }
+        },
+        {
+          "name": "보라매동",
+          "counts": {
+            "cafe": 36,
+            "food": 293,
+            "academy": 44,
+            "beauty": 52,
+            "conv": 13
+          }
+        },
+        {
+          "name": "삼성동",
+          "counts": {
+            "cafe": 7,
+            "food": 78,
+            "academy": 23,
+            "beauty": 34,
+            "conv": 6
+          }
+        },
+        {
+          "name": "서림동",
+          "counts": {
+            "cafe": 55,
+            "food": 160,
+            "academy": 48,
+            "beauty": 20,
+            "conv": 27
+          }
+        },
+        {
+          "name": "서원동",
+          "counts": {
+            "cafe": 58,
+            "food": 413,
+            "academy": 57,
+            "beauty": 40,
+            "conv": 26
+          }
+        },
+        {
+          "name": "성현동",
+          "counts": {
+            "cafe": 30,
+            "food": 92,
+            "academy": 82,
+            "beauty": 26,
+            "conv": 11
+          }
+        },
+        {
+          "name": "신림동",
+          "counts": {
+            "cafe": 77,
+            "food": 608,
+            "academy": 51,
+            "beauty": 65,
+            "conv": 32
+          }
+        },
+        {
+          "name": "신사동",
+          "counts": {
+            "cafe": 48,
+            "food": 267,
+            "academy": 49,
+            "beauty": 72,
+            "conv": 32
+          }
+        },
+        {
+          "name": "신원동",
+          "counts": {
+            "cafe": 31,
+            "food": 203,
+            "academy": 36,
+            "beauty": 35,
+            "conv": 10
+          }
+        },
+        {
+          "name": "은천동",
+          "counts": {
+            "cafe": 47,
+            "food": 356,
+            "academy": 92,
+            "beauty": 52,
+            "conv": 16
+          }
+        },
+        {
+          "name": "인헌동",
+          "counts": {
+            "cafe": 53,
+            "food": 231,
+            "academy": 54,
+            "beauty": 43,
+            "conv": 17
+          }
+        },
+        {
+          "name": "조원동",
+          "counts": {
+            "cafe": 56,
+            "food": 380,
+            "academy": 41,
+            "beauty": 52,
+            "conv": 22
+          }
+        },
+        {
+          "name": "중앙동",
+          "counts": {
+            "cafe": 44,
+            "food": 247,
+            "academy": 57,
+            "beauty": 46,
+            "conv": 16
+          }
+        },
+        {
+          "name": "청룡동",
+          "counts": {
+            "cafe": 87,
+            "food": 463,
+            "academy": 100,
+            "beauty": 80,
+            "conv": 36
+          }
+        },
+        {
+          "name": "청림동",
+          "counts": {
+            "cafe": 13,
+            "food": 80,
+            "academy": 49,
+            "beauty": 26,
+            "conv": 5
+          }
+        },
+        {
+          "name": "행운동",
+          "counts": {
+            "cafe": 65,
+            "food": 351,
+            "academy": 103,
+            "beauty": 81,
+            "conv": 29
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 광진구",
+      "dongs": [
+        {
+          "name": "광장동",
+          "counts": {
+            "cafe": 55,
+            "food": 208,
+            "academy": 99,
+            "beauty": 43,
+            "conv": 21
+          }
+        },
+        {
+          "name": "구의1동",
+          "counts": {
+            "cafe": 60,
+            "food": 441,
+            "academy": 67,
+            "beauty": 61,
+            "conv": 22
+          }
+        },
+        {
+          "name": "구의2동",
+          "counts": {
+            "cafe": 53,
+            "food": 283,
+            "academy": 65,
+            "beauty": 46,
+            "conv": 19
+          }
+        },
+        {
+          "name": "구의3동",
+          "counts": {
+            "cafe": 89,
+            "food": 346,
+            "academy": 180,
+            "beauty": 66,
+            "conv": 31
+          }
+        },
+        {
+          "name": "군자동",
+          "counts": {
+            "cafe": 73,
+            "food": 448,
+            "academy": 60,
+            "beauty": 49,
+            "conv": 32
+          }
+        },
+        {
+          "name": "능동",
+          "counts": {
+            "cafe": 34,
+            "food": 177,
+            "academy": 34,
+            "beauty": 21,
+            "conv": 22
+          }
+        },
+        {
+          "name": "자양1동",
+          "counts": {
+            "cafe": 49,
+            "food": 320,
+            "academy": 59,
+            "beauty": 83,
+            "conv": 22
+          }
+        },
+        {
+          "name": "자양2동",
+          "counts": {
+            "cafe": 46,
+            "food": 232,
+            "academy": 57,
+            "beauty": 56,
+            "conv": 19
+          }
+        },
+        {
+          "name": "자양3동",
+          "counts": {
+            "cafe": 56,
+            "food": 214,
+            "academy": 103,
+            "beauty": 47,
+            "conv": 26
+          }
+        },
+        {
+          "name": "자양4동",
+          "counts": {
+            "cafe": 79,
+            "food": 469,
+            "academy": 45,
+            "beauty": 68,
+            "conv": 32
+          }
+        },
+        {
+          "name": "중곡1동",
+          "counts": {
+            "cafe": 38,
+            "food": 316,
+            "academy": 37,
+            "beauty": 52,
+            "conv": 12
+          }
+        },
+        {
+          "name": "중곡2동",
+          "counts": {
+            "cafe": 41,
+            "food": 251,
+            "academy": 78,
+            "beauty": 67,
+            "conv": 23
+          }
+        },
+        {
+          "name": "중곡3동",
+          "counts": {
+            "cafe": 42,
+            "food": 225,
+            "academy": 31,
+            "beauty": 50,
+            "conv": 14
+          }
+        },
+        {
+          "name": "중곡4동",
+          "counts": {
+            "cafe": 39,
+            "food": 241,
+            "academy": 53,
+            "beauty": 61,
+            "conv": 15
+          }
+        },
+        {
+          "name": "화양동",
+          "counts": {
+            "cafe": 168,
+            "food": 972,
+            "academy": 79,
+            "beauty": 66,
+            "conv": 63
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 구로구",
+      "dongs": [
+        {
+          "name": "가리봉동",
+          "counts": {
+            "cafe": 10,
+            "food": 185,
+            "academy": 9,
+            "beauty": 34,
+            "conv": 8
+          }
+        },
+        {
+          "name": "개봉1동",
+          "counts": {
+            "cafe": 47,
+            "food": 273,
+            "academy": 63,
+            "beauty": 73,
+            "conv": 19
+          }
+        },
+        {
+          "name": "개봉2동",
+          "counts": {
+            "cafe": 36,
+            "food": 169,
+            "academy": 71,
+            "beauty": 52,
+            "conv": 18
+          }
+        },
+        {
+          "name": "개봉3동",
+          "counts": {
+            "cafe": 28,
+            "food": 185,
+            "academy": 47,
+            "beauty": 53,
+            "conv": 9
+          }
+        },
+        {
+          "name": "고척1동",
+          "counts": {
+            "cafe": 49,
+            "food": 299,
+            "academy": 72,
+            "beauty": 46,
+            "conv": 22
+          }
+        },
+        {
+          "name": "고척2동",
+          "counts": {
+            "cafe": 29,
+            "food": 219,
+            "academy": 84,
+            "beauty": 60,
+            "conv": 20
+          }
+        },
+        {
+          "name": "구로1동",
+          "counts": {
+            "cafe": 16,
+            "food": 80,
+            "academy": 40,
+            "beauty": 15,
+            "conv": 9
+          }
+        },
+        {
+          "name": "구로2동",
+          "counts": {
+            "cafe": 51,
+            "food": 534,
+            "academy": 48,
+            "beauty": 83,
+            "conv": 32
+          }
+        },
+        {
+          "name": "구로3동",
+          "counts": {
+            "cafe": 148,
+            "food": 902,
+            "academy": 95,
+            "beauty": 53,
+            "conv": 62
+          }
+        },
+        {
+          "name": "구로4동",
+          "counts": {
+            "cafe": 31,
+            "food": 415,
+            "academy": 33,
+            "beauty": 60,
+            "conv": 20
+          }
+        },
+        {
+          "name": "구로5동",
+          "counts": {
+            "cafe": 88,
+            "food": 606,
+            "academy": 59,
+            "beauty": 42,
+            "conv": 28
+          }
+        },
+        {
+          "name": "수궁동",
+          "counts": {
+            "cafe": 26,
+            "food": 136,
+            "academy": 45,
+            "beauty": 26,
+            "conv": 20
+          }
+        },
+        {
+          "name": "신도림동",
+          "counts": {
+            "cafe": 58,
+            "food": 285,
+            "academy": 109,
+            "beauty": 39,
+            "conv": 17
+          }
+        },
+        {
+          "name": "오류1동",
+          "counts": {
+            "cafe": 29,
+            "food": 233,
+            "academy": 32,
+            "beauty": 38,
+            "conv": 18
+          }
+        },
+        {
+          "name": "오류2동",
+          "counts": {
+            "cafe": 36,
+            "food": 204,
+            "academy": 96,
+            "beauty": 57,
+            "conv": 22
+          }
+        },
+        {
+          "name": "항동",
+          "counts": {
+            "cafe": 23,
+            "food": 82,
+            "academy": 62,
+            "beauty": 16,
+            "conv": 13
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 금천구",
+      "dongs": [
+        {
+          "name": "가산동",
+          "counts": {
+            "cafe": 319,
+            "food": 1433,
+            "academy": 105,
+            "beauty": 69,
+            "conv": 135
+          }
+        },
+        {
+          "name": "독산1동",
+          "counts": {
+            "cafe": 88,
+            "food": 512,
+            "academy": 62,
+            "beauty": 68,
+            "conv": 48
+          }
+        },
+        {
+          "name": "독산2동",
+          "counts": {
+            "cafe": 28,
+            "food": 212,
+            "academy": 34,
+            "beauty": 47,
+            "conv": 16
+          }
+        },
+        {
+          "name": "독산3동",
+          "counts": {
+            "cafe": 38,
+            "food": 343,
+            "academy": 36,
+            "beauty": 68,
+            "conv": 19
+          }
+        },
+        {
+          "name": "독산4동",
+          "counts": {
+            "cafe": 21,
+            "food": 213,
+            "academy": 29,
+            "beauty": 37,
+            "conv": 15
+          }
+        },
+        {
+          "name": "시흥1동",
+          "counts": {
+            "cafe": 68,
+            "food": 592,
+            "academy": 92,
+            "beauty": 94,
+            "conv": 28
+          }
+        },
+        {
+          "name": "시흥2동",
+          "counts": {
+            "cafe": 9,
+            "food": 35,
+            "academy": 40,
+            "beauty": 17,
+            "conv": 2
+          }
+        },
+        {
+          "name": "시흥3동",
+          "counts": {
+            "cafe": 11,
+            "food": 110,
+            "academy": 11,
+            "beauty": 14,
+            "conv": 5
+          }
+        },
+        {
+          "name": "시흥4동",
+          "counts": {
+            "cafe": 8,
+            "food": 77,
+            "academy": 38,
+            "beauty": 40,
+            "conv": 12
+          }
+        },
+        {
+          "name": "시흥5동",
+          "counts": {
+            "cafe": 29,
+            "food": 180,
+            "academy": 50,
+            "beauty": 56,
+            "conv": 14
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 노원구",
+      "dongs": [
+        {
+          "name": "공릉1동",
+          "counts": {
+            "cafe": 115,
+            "food": 639,
+            "academy": 75,
+            "beauty": 99,
+            "conv": 38
+          }
+        },
+        {
+          "name": "공릉2동",
+          "counts": {
+            "cafe": 93,
+            "food": 424,
+            "academy": 132,
+            "beauty": 72,
+            "conv": 36
+          }
+        },
+        {
+          "name": "상계10동",
+          "counts": {
+            "cafe": 16,
+            "food": 41,
+            "academy": 41,
+            "beauty": 13,
+            "conv": 4
+          }
+        },
+        {
+          "name": "상계1동",
+          "counts": {
+            "cafe": 58,
+            "food": 361,
+            "academy": 94,
+            "beauty": 72,
+            "conv": 28
+          }
+        },
+        {
+          "name": "상계2동",
+          "counts": {
+            "cafe": 82,
+            "food": 699,
+            "academy": 125,
+            "beauty": 97,
+            "conv": 23
+          }
+        },
+        {
+          "name": "상계3.4동",
+          "counts": {
+            "cafe": 24,
+            "food": 184,
+            "academy": 45,
+            "beauty": 35,
+            "conv": 14
+          }
+        },
+        {
+          "name": "상계5동",
+          "counts": {
+            "cafe": 36,
+            "food": 271,
+            "academy": 85,
+            "beauty": 74,
+            "conv": 14
+          }
+        },
+        {
+          "name": "상계6.7동",
+          "counts": {
+            "cafe": 63,
+            "food": 325,
+            "academy": 128,
+            "beauty": 52,
+            "conv": 30
+          }
+        },
+        {
+          "name": "상계8동",
+          "counts": {
+            "cafe": 14,
+            "food": 51,
+            "academy": 36,
+            "beauty": 16,
+            "conv": 5
+          }
+        },
+        {
+          "name": "상계9동",
+          "counts": {
+            "cafe": 8,
+            "food": 56,
+            "academy": 54,
+            "beauty": 20,
+            "conv": 9
+          }
+        },
+        {
+          "name": "월계1동",
+          "counts": {
+            "cafe": 48,
+            "food": 307,
+            "academy": 40,
+            "beauty": 43,
+            "conv": 28
+          }
+        },
+        {
+          "name": "월계2동",
+          "counts": {
+            "cafe": 20,
+            "food": 86,
+            "academy": 34,
+            "beauty": 25,
+            "conv": 14
+          }
+        },
+        {
+          "name": "월계3동",
+          "counts": {
+            "cafe": 23,
+            "food": 100,
+            "academy": 23,
+            "beauty": 20,
+            "conv": 10
+          }
+        },
+        {
+          "name": "중계1동",
+          "counts": {
+            "cafe": 49,
+            "food": 136,
+            "academy": 235,
+            "beauty": 30,
+            "conv": 13
+          }
+        },
+        {
+          "name": "중계2.3동",
+          "counts": {
+            "cafe": 24,
+            "food": 148,
+            "academy": 48,
+            "beauty": 30,
+            "conv": 10
+          }
+        },
+        {
+          "name": "중계4동",
+          "counts": {
+            "cafe": 34,
+            "food": 237,
+            "academy": 69,
+            "beauty": 43,
+            "conv": 7
+          }
+        },
+        {
+          "name": "중계본동",
+          "counts": {
+            "cafe": 65,
+            "food": 184,
+            "academy": 328,
+            "beauty": 36,
+            "conv": 15
+          }
+        },
+        {
+          "name": "하계1동",
+          "counts": {
+            "cafe": 45,
+            "food": 187,
+            "academy": 65,
+            "beauty": 18,
+            "conv": 13
+          }
+        },
+        {
+          "name": "하계2동",
+          "counts": {
+            "cafe": 3,
+            "food": 31,
+            "academy": 25,
+            "beauty": 12,
+            "conv": 5
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 도봉구",
+      "dongs": [
+        {
+          "name": "도봉1동",
+          "counts": {
+            "cafe": 42,
+            "food": 349,
+            "academy": 29,
+            "beauty": 46,
+            "conv": 19
+          }
+        },
+        {
+          "name": "도봉2동",
+          "counts": {
+            "cafe": 37,
+            "food": 196,
+            "academy": 36,
+            "beauty": 39,
+            "conv": 12
+          }
+        },
+        {
+          "name": "방학1동",
+          "counts": {
+            "cafe": 48,
+            "food": 476,
+            "academy": 88,
+            "beauty": 92,
+            "conv": 29
+          }
+        },
+        {
+          "name": "방학2동",
+          "counts": {
+            "cafe": 27,
+            "food": 162,
+            "academy": 25,
+            "beauty": 59,
+            "conv": 17
+          }
+        },
+        {
+          "name": "방학3동",
+          "counts": {
+            "cafe": 18,
+            "food": 86,
+            "academy": 59,
+            "beauty": 12,
+            "conv": 11
+          }
+        },
+        {
+          "name": "쌍문1동",
+          "counts": {
+            "cafe": 31,
+            "food": 123,
+            "academy": 42,
+            "beauty": 31,
+            "conv": 20
+          }
+        },
+        {
+          "name": "쌍문2동",
+          "counts": {
+            "cafe": 31,
+            "food": 225,
+            "academy": 65,
+            "beauty": 46,
+            "conv": 17
+          }
+        },
+        {
+          "name": "쌍문3동",
+          "counts": {
+            "cafe": 26,
+            "food": 173,
+            "academy": 32,
+            "beauty": 49,
+            "conv": 16
+          }
+        },
+        {
+          "name": "쌍문4동",
+          "counts": {
+            "cafe": 20,
+            "food": 54,
+            "academy": 79,
+            "beauty": 25,
+            "conv": 13
+          }
+        },
+        {
+          "name": "창1동",
+          "counts": {
+            "cafe": 36,
+            "food": 194,
+            "academy": 49,
+            "beauty": 40,
+            "conv": 16
+          }
+        },
+        {
+          "name": "창2동",
+          "counts": {
+            "cafe": 27,
+            "food": 169,
+            "academy": 52,
+            "beauty": 60,
+            "conv": 23
+          }
+        },
+        {
+          "name": "창3동",
+          "counts": {
+            "cafe": 20,
+            "food": 152,
+            "academy": 18,
+            "beauty": 37,
+            "conv": 11
+          }
+        },
+        {
+          "name": "창4동",
+          "counts": {
+            "cafe": 36,
+            "food": 225,
+            "academy": 80,
+            "beauty": 37,
+            "conv": 18
+          }
+        },
+        {
+          "name": "창5동",
+          "counts": {
+            "cafe": 54,
+            "food": 262,
+            "academy": 107,
+            "beauty": 46,
+            "conv": 17
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 동대문구",
+      "dongs": [
+        {
+          "name": "답십리1동",
+          "counts": {
+            "cafe": 35,
+            "food": 207,
+            "academy": 103,
+            "beauty": 30,
+            "conv": 18
+          }
+        },
+        {
+          "name": "답십리2동",
+          "counts": {
+            "cafe": 32,
+            "food": 211,
+            "academy": 48,
+            "beauty": 49,
+            "conv": 20
+          }
+        },
+        {
+          "name": "신설동",
+          "counts": {
+            "cafe": 60,
+            "food": 355,
+            "academy": 54,
+            "beauty": 19,
+            "conv": 30
+          }
+        },
+        {
+          "name": "용두동",
+          "counts": {
+            "cafe": 49,
+            "food": 275,
+            "academy": 26,
+            "beauty": 41,
+            "conv": 19
+          }
+        },
+        {
+          "name": "이문1동",
+          "counts": {
+            "cafe": 78,
+            "food": 349,
+            "academy": 59,
+            "beauty": 61,
+            "conv": 34
+          }
+        },
+        {
+          "name": "이문2동",
+          "counts": {
+            "cafe": 22,
+            "food": 96,
+            "academy": 50,
+            "beauty": 29,
+            "conv": 9
+          }
+        },
+        {
+          "name": "장안1동",
+          "counts": {
+            "cafe": 75,
+            "food": 626,
+            "academy": 77,
+            "beauty": 84,
+            "conv": 45
+          }
+        },
+        {
+          "name": "장안2동",
+          "counts": {
+            "cafe": 77,
+            "food": 517,
+            "academy": 171,
+            "beauty": 94,
+            "conv": 40
+          }
+        },
+        {
+          "name": "전농1동",
+          "counts": {
+            "cafe": 77,
+            "food": 462,
+            "academy": 90,
+            "beauty": 84,
+            "conv": 26
+          }
+        },
+        {
+          "name": "전농2동",
+          "counts": {
+            "cafe": 22,
+            "food": 138,
+            "academy": 61,
+            "beauty": 24,
+            "conv": 13
+          }
+        },
+        {
+          "name": "제기동",
+          "counts": {
+            "cafe": 67,
+            "food": 527,
+            "academy": 58,
+            "beauty": 52,
+            "conv": 29
+          }
+        },
+        {
+          "name": "청량리동",
+          "counts": {
+            "cafe": 37,
+            "food": 289,
+            "academy": 34,
+            "beauty": 45,
+            "conv": 16
+          }
+        },
+        {
+          "name": "회기동",
+          "counts": {
+            "cafe": 97,
+            "food": 470,
+            "academy": 31,
+            "beauty": 40,
+            "conv": 17
+          }
+        },
+        {
+          "name": "휘경1동",
+          "counts": {
+            "cafe": 34,
+            "food": 170,
+            "academy": 35,
+            "beauty": 28,
+            "conv": 15
+          }
+        },
+        {
+          "name": "휘경2동",
+          "counts": {
+            "cafe": 46,
+            "food": 155,
+            "academy": 44,
+            "beauty": 30,
+            "conv": 17
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 동작구",
+      "dongs": [
+        {
+          "name": "노량진1동",
+          "counts": {
+            "cafe": 117,
+            "food": 375,
+            "academy": 95,
+            "beauty": 39,
+            "conv": 31
+          }
+        },
+        {
+          "name": "노량진2동",
+          "counts": {
+            "cafe": 31,
+            "food": 234,
+            "academy": 28,
+            "beauty": 25,
+            "conv": 15
+          }
+        },
+        {
+          "name": "대방동",
+          "counts": {
+            "cafe": 68,
+            "food": 270,
+            "academy": 169,
+            "beauty": 43,
+            "conv": 24
+          }
+        },
+        {
+          "name": "사당1동",
+          "counts": {
+            "cafe": 72,
+            "food": 491,
+            "academy": 77,
+            "beauty": 65,
+            "conv": 30
+          }
+        },
+        {
+          "name": "사당2동",
+          "counts": {
+            "cafe": 48,
+            "food": 412,
+            "academy": 88,
+            "beauty": 56,
+            "conv": 20
+          }
+        },
+        {
+          "name": "사당3동",
+          "counts": {
+            "cafe": 24,
+            "food": 137,
+            "academy": 54,
+            "beauty": 33,
+            "conv": 7
+          }
+        },
+        {
+          "name": "사당4동",
+          "counts": {
+            "cafe": 17,
+            "food": 111,
+            "academy": 24,
+            "beauty": 30,
+            "conv": 9
+          }
+        },
+        {
+          "name": "사당5동",
+          "counts": {
+            "cafe": 21,
+            "food": 65,
+            "academy": 34,
+            "beauty": 30,
+            "conv": 9
+          }
+        },
+        {
+          "name": "상도1동",
+          "counts": {
+            "cafe": 95,
+            "food": 413,
+            "academy": 128,
+            "beauty": 74,
+            "conv": 42
+          }
+        },
+        {
+          "name": "상도2동",
+          "counts": {
+            "cafe": 52,
+            "food": 232,
+            "academy": 106,
+            "beauty": 44,
+            "conv": 21
+          }
+        },
+        {
+          "name": "상도3동",
+          "counts": {
+            "cafe": 37,
+            "food": 180,
+            "academy": 36,
+            "beauty": 51,
+            "conv": 17
+          }
+        },
+        {
+          "name": "상도4동",
+          "counts": {
+            "cafe": 39,
+            "food": 164,
+            "academy": 60,
+            "beauty": 44,
+            "conv": 14
+          }
+        },
+        {
+          "name": "신대방1동",
+          "counts": {
+            "cafe": 30,
+            "food": 176,
+            "academy": 54,
+            "beauty": 38,
+            "conv": 13
+          }
+        },
+        {
+          "name": "신대방2동",
+          "counts": {
+            "cafe": 58,
+            "food": 288,
+            "academy": 62,
+            "beauty": 50,
+            "conv": 27
+          }
+        },
+        {
+          "name": "흑석동",
+          "counts": {
+            "cafe": 65,
+            "food": 383,
+            "academy": 89,
+            "beauty": 51,
+            "conv": 21
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 마포구",
+      "dongs": [
+        {
+          "name": "공덕동",
+          "counts": {
+            "cafe": 70,
+            "food": 464,
+            "academy": 97,
+            "beauty": 64,
+            "conv": 20
+          }
+        },
+        {
+          "name": "대흥동",
+          "counts": {
+            "cafe": 96,
+            "food": 381,
+            "academy": 153,
+            "beauty": 48,
+            "conv": 28
+          }
+        },
+        {
+          "name": "도화동",
+          "counts": {
+            "cafe": 63,
+            "food": 424,
+            "academy": 67,
+            "beauty": 44,
+            "conv": 21
+          }
+        },
+        {
+          "name": "망원1동",
+          "counts": {
+            "cafe": 134,
+            "food": 614,
+            "academy": 62,
+            "beauty": 64,
+            "conv": 30
+          }
+        },
+        {
+          "name": "망원2동",
+          "counts": {
+            "cafe": 59,
+            "food": 275,
+            "academy": 69,
+            "beauty": 58,
+            "conv": 17
+          }
+        },
+        {
+          "name": "상암동",
+          "counts": {
+            "cafe": 172,
+            "food": 786,
+            "academy": 141,
+            "beauty": 47,
+            "conv": 51
+          }
+        },
+        {
+          "name": "서강동",
+          "counts": {
+            "cafe": 105,
+            "food": 497,
+            "academy": 119,
+            "beauty": 83,
+            "conv": 28
+          }
+        },
+        {
+          "name": "서교동",
+          "counts": {
+            "cafe": 556,
+            "food": 2676,
+            "academy": 399,
+            "beauty": 361,
+            "conv": 119
+          }
+        },
+        {
+          "name": "성산1동",
+          "counts": {
+            "cafe": 56,
+            "food": 238,
+            "academy": 77,
+            "beauty": 25,
+            "conv": 27
+          }
+        },
+        {
+          "name": "성산2동",
+          "counts": {
+            "cafe": 59,
+            "food": 268,
+            "academy": 114,
+            "beauty": 41,
+            "conv": 32
+          }
+        },
+        {
+          "name": "신수동",
+          "counts": {
+            "cafe": 56,
+            "food": 211,
+            "academy": 71,
+            "beauty": 44,
+            "conv": 13
+          }
+        },
+        {
+          "name": "아현동",
+          "counts": {
+            "cafe": 56,
+            "food": 272,
+            "academy": 92,
+            "beauty": 49,
+            "conv": 18
+          }
+        },
+        {
+          "name": "연남동",
+          "counts": {
+            "cafe": 214,
+            "food": 947,
+            "academy": 68,
+            "beauty": 108,
+            "conv": 30
+          }
+        },
+        {
+          "name": "염리동",
+          "counts": {
+            "cafe": 45,
+            "food": 219,
+            "academy": 75,
+            "beauty": 24,
+            "conv": 15
+          }
+        },
+        {
+          "name": "용강동",
+          "counts": {
+            "cafe": 77,
+            "food": 421,
+            "academy": 122,
+            "beauty": 31,
+            "conv": 30
+          }
+        },
+        {
+          "name": "합정동",
+          "counts": {
+            "cafe": 136,
+            "food": 644,
+            "academy": 102,
+            "beauty": 90,
+            "conv": 32
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 서대문구",
+      "dongs": [
+        {
+          "name": "남가좌1동",
+          "counts": {
+            "cafe": 15,
+            "food": 172,
+            "academy": 39,
+            "beauty": 24,
+            "conv": 5
+          }
+        },
+        {
+          "name": "남가좌2동",
+          "counts": {
+            "cafe": 78,
+            "food": 346,
+            "academy": 92,
+            "beauty": 54,
+            "conv": 25
+          }
+        },
+        {
+          "name": "북가좌1동",
+          "counts": {
+            "cafe": 8,
+            "food": 76,
+            "academy": 53,
+            "beauty": 15,
+            "conv": 12
+          }
+        },
+        {
+          "name": "북가좌2동",
+          "counts": {
+            "cafe": 42,
+            "food": 297,
+            "academy": 99,
+            "beauty": 76,
+            "conv": 26
+          }
+        },
+        {
+          "name": "북아현동",
+          "counts": {
+            "cafe": 20,
+            "food": 120,
+            "academy": 40,
+            "beauty": 23,
+            "conv": 6
+          }
+        },
+        {
+          "name": "신촌동",
+          "counts": {
+            "cafe": 246,
+            "food": 1265,
+            "academy": 161,
+            "beauty": 122,
+            "conv": 80
+          }
+        },
+        {
+          "name": "연희동",
+          "counts": {
+            "cafe": 126,
+            "food": 520,
+            "academy": 136,
+            "beauty": 61,
+            "conv": 31
+          }
+        },
+        {
+          "name": "천연동",
+          "counts": {
+            "cafe": 24,
+            "food": 183,
+            "academy": 47,
+            "beauty": 27,
+            "conv": 9
+          }
+        },
+        {
+          "name": "충현동",
+          "counts": {
+            "cafe": 81,
+            "food": 424,
+            "academy": 38,
+            "beauty": 26,
+            "conv": 29
+          }
+        },
+        {
+          "name": "홍은1동",
+          "counts": {
+            "cafe": 24,
+            "food": 141,
+            "academy": 59,
+            "beauty": 40,
+            "conv": 12
+          }
+        },
+        {
+          "name": "홍은2동",
+          "counts": {
+            "cafe": 43,
+            "food": 211,
+            "academy": 81,
+            "beauty": 30,
+            "conv": 28
+          }
+        },
+        {
+          "name": "홍제1동",
+          "counts": {
+            "cafe": 31,
+            "food": 196,
+            "academy": 73,
+            "beauty": 40,
+            "conv": 17
+          }
+        },
+        {
+          "name": "홍제2동",
+          "counts": {
+            "cafe": 13,
+            "food": 79,
+            "academy": 43,
+            "beauty": 19,
+            "conv": 7
+          }
+        },
+        {
+          "name": "홍제3동",
+          "counts": {
+            "cafe": 27,
+            "food": 265,
+            "academy": 66,
+            "beauty": 32,
+            "conv": 12
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 서초구",
+      "dongs": [
+        {
+          "name": "내곡동",
+          "counts": {
+            "cafe": 28,
+            "food": 106,
+            "academy": 49,
+            "beauty": 9,
+            "conv": 16
+          }
+        },
+        {
+          "name": "반포1동",
+          "counts": {
+            "cafe": 75,
+            "food": 310,
+            "academy": 97,
+            "beauty": 60,
+            "conv": 19
+          }
+        },
+        {
+          "name": "반포2동",
+          "counts": {
+            "cafe": 14,
+            "food": 61,
+            "academy": 57,
+            "beauty": 21,
+            "conv": 9
+          }
+        },
+        {
+          "name": "반포3동",
+          "counts": {
+            "cafe": 31,
+            "food": 150,
+            "academy": 155,
+            "beauty": 19,
+            "conv": 11
+          }
+        },
+        {
+          "name": "반포4동",
+          "counts": {
+            "cafe": 96,
+            "food": 517,
+            "academy": 311,
+            "beauty": 46,
+            "conv": 36
+          }
+        },
+        {
+          "name": "반포본동",
+          "counts": {
+            "cafe": 10,
+            "food": 30,
+            "academy": 21,
+            "beauty": 7,
+            "conv": 2
+          }
+        },
+        {
+          "name": "방배1동",
+          "counts": {
+            "cafe": 50,
+            "food": 283,
+            "academy": 88,
+            "beauty": 60,
+            "conv": 18
+          }
+        },
+        {
+          "name": "방배2동",
+          "counts": {
+            "cafe": 62,
+            "food": 370,
+            "academy": 94,
+            "beauty": 42,
+            "conv": 21
+          }
+        },
+        {
+          "name": "방배3동",
+          "counts": {
+            "cafe": 35,
+            "food": 106,
+            "academy": 44,
+            "beauty": 23,
+            "conv": 14
+          }
+        },
+        {
+          "name": "방배4동",
+          "counts": {
+            "cafe": 80,
+            "food": 322,
+            "academy": 150,
+            "beauty": 54,
+            "conv": 18
+          }
+        },
+        {
+          "name": "방배본동",
+          "counts": {
+            "cafe": 59,
+            "food": 276,
+            "academy": 146,
+            "beauty": 56,
+            "conv": 19
+          }
+        },
+        {
+          "name": "서초1동",
+          "counts": {
+            "cafe": 113,
+            "food": 475,
+            "academy": 134,
+            "beauty": 43,
+            "conv": 32
+          }
+        },
+        {
+          "name": "서초2동",
+          "counts": {
+            "cafe": 137,
+            "food": 626,
+            "academy": 278,
+            "beauty": 65,
+            "conv": 43
+          }
+        },
+        {
+          "name": "서초3동",
+          "counts": {
+            "cafe": 213,
+            "food": 1061,
+            "academy": 214,
+            "beauty": 65,
+            "conv": 73
+          }
+        },
+        {
+          "name": "서초4동",
+          "counts": {
+            "cafe": 89,
+            "food": 486,
+            "academy": 202,
+            "beauty": 48,
+            "conv": 34
+          }
+        },
+        {
+          "name": "양재1동",
+          "counts": {
+            "cafe": 132,
+            "food": 573,
+            "academy": 171,
+            "beauty": 51,
+            "conv": 42
+          }
+        },
+        {
+          "name": "양재2동",
+          "counts": {
+            "cafe": 134,
+            "food": 667,
+            "academy": 100,
+            "beauty": 43,
+            "conv": 46
+          }
+        },
+        {
+          "name": "잠원동",
+          "counts": {
+            "cafe": 67,
+            "food": 389,
+            "academy": 139,
+            "beauty": 50,
+            "conv": 28
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 성동구",
+      "dongs": [
+        {
+          "name": "금호1가동",
+          "counts": {
+            "cafe": 18,
+            "food": 78,
+            "academy": 57,
+            "beauty": 21,
+            "conv": 7
+          }
+        },
+        {
+          "name": "금호2.3가동",
+          "counts": {
+            "cafe": 24,
+            "food": 225,
+            "academy": 49,
+            "beauty": 50,
+            "conv": 12
+          }
+        },
+        {
+          "name": "금호4가동",
+          "counts": {
+            "cafe": 18,
+            "food": 126,
+            "academy": 42,
+            "beauty": 27,
+            "conv": 8
+          }
+        },
+        {
+          "name": "마장동",
+          "counts": {
+            "cafe": 21,
+            "food": 189,
+            "academy": 29,
+            "beauty": 27,
+            "conv": 15
+          }
+        },
+        {
+          "name": "사근동",
+          "counts": {
+            "cafe": 76,
+            "food": 407,
+            "academy": 27,
+            "beauty": 26,
+            "conv": 36
+          }
+        },
+        {
+          "name": "성수1가1동",
+          "counts": {
+            "cafe": 56,
+            "food": 263,
+            "academy": 71,
+            "beauty": 36,
+            "conv": 13
+          }
+        },
+        {
+          "name": "성수1가2동",
+          "counts": {
+            "cafe": 146,
+            "food": 655,
+            "academy": 79,
+            "beauty": 68,
+            "conv": 32
+          }
+        },
+        {
+          "name": "성수2가1동",
+          "counts": {
+            "cafe": 79,
+            "food": 474,
+            "academy": 33,
+            "beauty": 50,
+            "conv": 23
+          }
+        },
+        {
+          "name": "성수2가3동",
+          "counts": {
+            "cafe": 143,
+            "food": 687,
+            "academy": 59,
+            "beauty": 56,
+            "conv": 43
+          }
+        },
+        {
+          "name": "송정동",
+          "counts": {
+            "cafe": 20,
+            "food": 92,
+            "academy": 19,
+            "beauty": 16,
+            "conv": 7
+          }
+        },
+        {
+          "name": "옥수동",
+          "counts": {
+            "cafe": 31,
+            "food": 162,
+            "academy": 89,
+            "beauty": 26,
+            "conv": 14
+          }
+        },
+        {
+          "name": "왕십리2동",
+          "counts": {
+            "cafe": 21,
+            "food": 128,
+            "academy": 31,
+            "beauty": 32,
+            "conv": 12
+          }
+        },
+        {
+          "name": "왕십리도선동",
+          "counts": {
+            "cafe": 69,
+            "food": 476,
+            "academy": 74,
+            "beauty": 68,
+            "conv": 19
+          }
+        },
+        {
+          "name": "용답동",
+          "counts": {
+            "cafe": 31,
+            "food": 234,
+            "academy": 24,
+            "beauty": 30,
+            "conv": 17
+          }
+        },
+        {
+          "name": "응봉동",
+          "counts": {
+            "cafe": 7,
+            "food": 32,
+            "academy": 27,
+            "beauty": 12,
+            "conv": 5
+          }
+        },
+        {
+          "name": "행당1동",
+          "counts": {
+            "cafe": 46,
+            "food": 301,
+            "academy": 72,
+            "beauty": 37,
+            "conv": 16
+          }
+        },
+        {
+          "name": "행당2동",
+          "counts": {
+            "cafe": 16,
+            "food": 71,
+            "academy": 91,
+            "beauty": 29,
+            "conv": 6
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 성북구",
+      "dongs": [
+        {
+          "name": "길음1동",
+          "counts": {
+            "cafe": 40,
+            "food": 180,
+            "academy": 115,
+            "beauty": 46,
+            "conv": 7
+          }
+        },
+        {
+          "name": "길음2동",
+          "counts": {
+            "cafe": 40,
+            "food": 168,
+            "academy": 83,
+            "beauty": 34,
+            "conv": 8
+          }
+        },
+        {
+          "name": "돈암1동",
+          "counts": {
+            "cafe": 9,
+            "food": 38,
+            "academy": 96,
+            "beauty": 6,
+            "conv": 6
+          }
+        },
+        {
+          "name": "돈암2동",
+          "counts": {
+            "cafe": 14,
+            "food": 50,
+            "academy": 46,
+            "beauty": 11,
+            "conv": 5
+          }
+        },
+        {
+          "name": "동선동",
+          "counts": {
+            "cafe": 153,
+            "food": 650,
+            "academy": 115,
+            "beauty": 107,
+            "conv": 29
+          }
+        },
+        {
+          "name": "보문동",
+          "counts": {
+            "cafe": 41,
+            "food": 181,
+            "academy": 30,
+            "beauty": 35,
+            "conv": 16
+          }
+        },
+        {
+          "name": "삼선동",
+          "counts": {
+            "cafe": 89,
+            "food": 470,
+            "academy": 99,
+            "beauty": 61,
+            "conv": 20
+          }
+        },
+        {
+          "name": "석관동",
+          "counts": {
+            "cafe": 44,
+            "food": 393,
+            "academy": 64,
+            "beauty": 87,
+            "conv": 30
+          }
+        },
+        {
+          "name": "성북동",
+          "counts": {
+            "cafe": 75,
+            "food": 248,
+            "academy": 80,
+            "beauty": 35,
+            "conv": 19
+          }
+        },
+        {
+          "name": "안암동",
+          "counts": {
+            "cafe": 133,
+            "food": 488,
+            "academy": 58,
+            "beauty": 41,
+            "conv": 39
+          }
+        },
+        {
+          "name": "월곡1동",
+          "counts": {
+            "cafe": 35,
+            "food": 197,
+            "academy": 79,
+            "beauty": 40,
+            "conv": 12
+          }
+        },
+        {
+          "name": "월곡2동",
+          "counts": {
+            "cafe": 63,
+            "food": 312,
+            "academy": 56,
+            "beauty": 58,
+            "conv": 25
+          }
+        },
+        {
+          "name": "장위1동",
+          "counts": {
+            "cafe": 22,
+            "food": 168,
+            "academy": 45,
+            "beauty": 47,
+            "conv": 17
+          }
+        },
+        {
+          "name": "장위2동",
+          "counts": {
+            "cafe": 17,
+            "food": 164,
+            "academy": 23,
+            "beauty": 38,
+            "conv": 7
+          }
+        },
+        {
+          "name": "장위3동",
+          "counts": {
+            "cafe": 14,
+            "food": 67,
+            "academy": 29,
+            "beauty": 13,
+            "conv": 8
+          }
+        },
+        {
+          "name": "정릉1동",
+          "counts": {
+            "cafe": 20,
+            "food": 107,
+            "academy": 64,
+            "beauty": 30,
+            "conv": 12
+          }
+        },
+        {
+          "name": "정릉2동",
+          "counts": {
+            "cafe": 34,
+            "food": 147,
+            "academy": 60,
+            "beauty": 25,
+            "conv": 12
+          }
+        },
+        {
+          "name": "정릉3동",
+          "counts": {
+            "cafe": 31,
+            "food": 157,
+            "academy": 18,
+            "beauty": 24,
+            "conv": 18
+          }
+        },
+        {
+          "name": "정릉4동",
+          "counts": {
+            "cafe": 31,
+            "food": 159,
+            "academy": 50,
+            "beauty": 32,
+            "conv": 16
+          }
+        },
+        {
+          "name": "종암동",
+          "counts": {
+            "cafe": 63,
+            "food": 302,
+            "academy": 119,
+            "beauty": 69,
+            "conv": 24
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 송파구",
+      "dongs": [
+        {
+          "name": "가락1동",
+          "counts": {
+            "cafe": 26,
+            "food": 162,
+            "academy": 35,
+            "beauty": 12,
+            "conv": 11
+          }
+        },
+        {
+          "name": "가락2동",
+          "counts": {
+            "cafe": 70,
+            "food": 286,
+            "academy": 154,
+            "beauty": 69,
+            "conv": 20
+          }
+        },
+        {
+          "name": "가락본동",
+          "counts": {
+            "cafe": 85,
+            "food": 629,
+            "academy": 75,
+            "beauty": 52,
+            "conv": 37
+          }
+        },
+        {
+          "name": "거여1동",
+          "counts": {
+            "cafe": 19,
+            "food": 133,
+            "academy": 37,
+            "beauty": 39,
+            "conv": 9
+          }
+        },
+        {
+          "name": "거여2동",
+          "counts": {
+            "cafe": 24,
+            "food": 142,
+            "academy": 59,
+            "beauty": 35,
+            "conv": 10
+          }
+        },
+        {
+          "name": "마천1동",
+          "counts": {
+            "cafe": 10,
+            "food": 120,
+            "academy": 28,
+            "beauty": 33,
+            "conv": 17
+          }
+        },
+        {
+          "name": "마천2동",
+          "counts": {
+            "cafe": 20,
+            "food": 215,
+            "academy": 31,
+            "beauty": 48,
+            "conv": 17
+          }
+        },
+        {
+          "name": "문정1동",
+          "counts": {
+            "cafe": 46,
+            "food": 218,
+            "academy": 69,
+            "beauty": 53,
+            "conv": 17
+          }
+        },
+        {
+          "name": "문정2동",
+          "counts": {
+            "cafe": 209,
+            "food": 979,
+            "academy": 126,
+            "beauty": 78,
+            "conv": 66
+          }
+        },
+        {
+          "name": "방이1동",
+          "counts": {
+            "cafe": 64,
+            "food": 281,
+            "academy": 193,
+            "beauty": 40,
+            "conv": 14
+          }
+        },
+        {
+          "name": "방이2동",
+          "counts": {
+            "cafe": 85,
+            "food": 790,
+            "academy": 108,
+            "beauty": 67,
+            "conv": 41
+          }
+        },
+        {
+          "name": "삼전동",
+          "counts": {
+            "cafe": 89,
+            "food": 399,
+            "academy": 137,
+            "beauty": 92,
+            "conv": 33
+          }
+        },
+        {
+          "name": "석촌동",
+          "counts": {
+            "cafe": 103,
+            "food": 661,
+            "academy": 163,
+            "beauty": 102,
+            "conv": 39
+          }
+        },
+        {
+          "name": "송파1동",
+          "counts": {
+            "cafe": 120,
+            "food": 561,
+            "academy": 110,
+            "beauty": 80,
+            "conv": 31
+          }
+        },
+        {
+          "name": "송파2동",
+          "counts": {
+            "cafe": 45,
+            "food": 175,
+            "academy": 93,
+            "beauty": 33,
+            "conv": 13
+          }
+        },
+        {
+          "name": "오금동",
+          "counts": {
+            "cafe": 99,
+            "food": 321,
+            "academy": 184,
+            "beauty": 54,
+            "conv": 31
+          }
+        },
+        {
+          "name": "오륜동",
+          "counts": {
+            "cafe": 18,
+            "food": 67,
+            "academy": 22,
+            "beauty": 6,
+            "conv": 8
+          }
+        },
+        {
+          "name": "위례동",
+          "counts": {
+            "cafe": 45,
+            "food": 210,
+            "academy": 159,
+            "beauty": 45,
+            "conv": 18
+          }
+        },
+        {
+          "name": "잠실2동",
+          "counts": {
+            "cafe": 32,
+            "food": 133,
+            "academy": 89,
+            "beauty": 34,
+            "conv": 9
+          }
+        },
+        {
+          "name": "잠실3동",
+          "counts": {
+            "cafe": 29,
+            "food": 186,
+            "academy": 63,
+            "beauty": 27,
+            "conv": 17
+          }
+        },
+        {
+          "name": "잠실4동",
+          "counts": {
+            "cafe": 14,
+            "food": 44,
+            "academy": 34,
+            "beauty": 16,
+            "conv": 5
+          }
+        },
+        {
+          "name": "잠실6동",
+          "counts": {
+            "cafe": 77,
+            "food": 416,
+            "academy": 86,
+            "beauty": 37,
+            "conv": 25
+          }
+        },
+        {
+          "name": "잠실7동",
+          "counts": {
+            "cafe": 6,
+            "food": 15,
+            "academy": 11,
+            "beauty": 7,
+            "conv": 4
+          }
+        },
+        {
+          "name": "잠실본동",
+          "counts": {
+            "cafe": 113,
+            "food": 818,
+            "academy": 195,
+            "beauty": 114,
+            "conv": 48
+          }
+        },
+        {
+          "name": "장지동",
+          "counts": {
+            "cafe": 52,
+            "food": 181,
+            "academy": 84,
+            "beauty": 45,
+            "conv": 21
+          }
+        },
+        {
+          "name": "풍납1동",
+          "counts": {
+            "cafe": 13,
+            "food": 100,
+            "academy": 19,
+            "beauty": 26,
+            "conv": 8
+          }
+        },
+        {
+          "name": "풍납2동",
+          "counts": {
+            "cafe": 30,
+            "food": 122,
+            "academy": 64,
+            "beauty": 33,
+            "conv": 14
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 양천구",
+      "dongs": [
+        {
+          "name": "목1동",
+          "counts": {
+            "cafe": 111,
+            "food": 540,
+            "academy": 242,
+            "beauty": 65,
+            "conv": 34
+          }
+        },
+        {
+          "name": "목2동",
+          "counts": {
+            "cafe": 54,
+            "food": 220,
+            "academy": 86,
+            "beauty": 44,
+            "conv": 24
+          }
+        },
+        {
+          "name": "목3동",
+          "counts": {
+            "cafe": 48,
+            "food": 238,
+            "academy": 58,
+            "beauty": 65,
+            "conv": 14
+          }
+        },
+        {
+          "name": "목4동",
+          "counts": {
+            "cafe": 57,
+            "food": 266,
+            "academy": 113,
+            "beauty": 72,
+            "conv": 16
+          }
+        },
+        {
+          "name": "목5동",
+          "counts": {
+            "cafe": 58,
+            "food": 183,
+            "academy": 453,
+            "beauty": 35,
+            "conv": 17
+          }
+        },
+        {
+          "name": "신월1동",
+          "counts": {
+            "cafe": 24,
+            "food": 285,
+            "academy": 39,
+            "beauty": 66,
+            "conv": 15
+          }
+        },
+        {
+          "name": "신월2동",
+          "counts": {
+            "cafe": 18,
+            "food": 107,
+            "academy": 51,
+            "beauty": 34,
+            "conv": 7
+          }
+        },
+        {
+          "name": "신월3동",
+          "counts": {
+            "cafe": 22,
+            "food": 101,
+            "academy": 20,
+            "beauty": 29,
+            "conv": 14
+          }
+        },
+        {
+          "name": "신월4동",
+          "counts": {
+            "cafe": 18,
+            "food": 179,
+            "academy": 46,
+            "beauty": 35,
+            "conv": 10
+          }
+        },
+        {
+          "name": "신월5동",
+          "counts": {
+            "cafe": 23,
+            "food": 142,
+            "academy": 39,
+            "beauty": 29,
+            "conv": 14
+          }
+        },
+        {
+          "name": "신월6동",
+          "counts": {
+            "cafe": 19,
+            "food": 104,
+            "academy": 39,
+            "beauty": 28,
+            "conv": 4
+          }
+        },
+        {
+          "name": "신월7동",
+          "counts": {
+            "cafe": 14,
+            "food": 132,
+            "academy": 32,
+            "beauty": 38,
+            "conv": 13
+          }
+        },
+        {
+          "name": "신정1동",
+          "counts": {
+            "cafe": 51,
+            "food": 253,
+            "academy": 111,
+            "beauty": 42,
+            "conv": 5
+          }
+        },
+        {
+          "name": "신정2동",
+          "counts": {
+            "cafe": 51,
+            "food": 195,
+            "academy": 181,
+            "beauty": 51,
+            "conv": 10
+          }
+        },
+        {
+          "name": "신정3동",
+          "counts": {
+            "cafe": 45,
+            "food": 168,
+            "academy": 107,
+            "beauty": 55,
+            "conv": 21
+          }
+        },
+        {
+          "name": "신정4동",
+          "counts": {
+            "cafe": 85,
+            "food": 519,
+            "academy": 148,
+            "beauty": 107,
+            "conv": 37
+          }
+        },
+        {
+          "name": "신정6동",
+          "counts": {
+            "cafe": 27,
+            "food": 75,
+            "academy": 188,
+            "beauty": 15,
+            "conv": 9
+          }
+        },
+        {
+          "name": "신정7동",
+          "counts": {
+            "cafe": 46,
+            "food": 147,
+            "academy": 140,
+            "beauty": 34,
+            "conv": 9
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 영등포구",
+      "dongs": [
+        {
+          "name": "당산1동",
+          "counts": {
+            "cafe": 122,
+            "food": 675,
+            "academy": 73,
+            "beauty": 72,
+            "conv": 36
+          }
+        },
+        {
+          "name": "당산2동",
+          "counts": {
+            "cafe": 95,
+            "food": 457,
+            "academy": 149,
+            "beauty": 59,
+            "conv": 38
+          }
+        },
+        {
+          "name": "대림1동",
+          "counts": {
+            "cafe": 22,
+            "food": 203,
+            "academy": 23,
+            "beauty": 43,
+            "conv": 16
+          }
+        },
+        {
+          "name": "대림2동",
+          "counts": {
+            "cafe": 30,
+            "food": 365,
+            "academy": 19,
+            "beauty": 69,
+            "conv": 21
+          }
+        },
+        {
+          "name": "대림3동",
+          "counts": {
+            "cafe": 37,
+            "food": 341,
+            "academy": 50,
+            "beauty": 51,
+            "conv": 30
+          }
+        },
+        {
+          "name": "도림동",
+          "counts": {
+            "cafe": 33,
+            "food": 154,
+            "academy": 38,
+            "beauty": 38,
+            "conv": 17
+          }
+        },
+        {
+          "name": "문래동",
+          "counts": {
+            "cafe": 140,
+            "food": 716,
+            "academy": 134,
+            "beauty": 46,
+            "conv": 37
+          }
+        },
+        {
+          "name": "신길1동",
+          "counts": {
+            "cafe": 26,
+            "food": 210,
+            "academy": 46,
+            "beauty": 49,
+            "conv": 20
+          }
+        },
+        {
+          "name": "신길3동",
+          "counts": {
+            "cafe": 18,
+            "food": 142,
+            "academy": 37,
+            "beauty": 43,
+            "conv": 10
+          }
+        },
+        {
+          "name": "신길4동",
+          "counts": {
+            "cafe": 10,
+            "food": 78,
+            "academy": 24,
+            "beauty": 23,
+            "conv": 9
+          }
+        },
+        {
+          "name": "신길5동",
+          "counts": {
+            "cafe": 13,
+            "food": 66,
+            "academy": 18,
+            "beauty": 12,
+            "conv": 4
+          }
+        },
+        {
+          "name": "신길6동",
+          "counts": {
+            "cafe": 49,
+            "food": 229,
+            "academy": 109,
+            "beauty": 54,
+            "conv": 21
+          }
+        },
+        {
+          "name": "신길7동",
+          "counts": {
+            "cafe": 21,
+            "food": 100,
+            "academy": 47,
+            "beauty": 18,
+            "conv": 13
+          }
+        },
+        {
+          "name": "양평1동",
+          "counts": {
+            "cafe": 76,
+            "food": 350,
+            "academy": 52,
+            "beauty": 27,
+            "conv": 20
+          }
+        },
+        {
+          "name": "양평2동",
+          "counts": {
+            "cafe": 90,
+            "food": 372,
+            "academy": 65,
+            "beauty": 32,
+            "conv": 33
+          }
+        },
+        {
+          "name": "여의동",
+          "counts": {
+            "cafe": 330,
+            "food": 2073,
+            "academy": 192,
+            "beauty": 74,
+            "conv": 92
+          }
+        },
+        {
+          "name": "영등포동",
+          "counts": {
+            "cafe": 129,
+            "food": 1077,
+            "academy": 101,
+            "beauty": 75,
+            "conv": 68
+          }
+        },
+        {
+          "name": "영등포본동",
+          "counts": {
+            "cafe": 35,
+            "food": 253,
+            "academy": 42,
+            "beauty": 33,
+            "conv": 17
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 용산구",
+      "dongs": [
+        {
+          "name": "남영동",
+          "counts": {
+            "cafe": 84,
+            "food": 524,
+            "academy": 53,
+            "beauty": 23,
+            "conv": 28
+          }
+        },
+        {
+          "name": "보광동",
+          "counts": {
+            "cafe": 12,
+            "food": 119,
+            "academy": 19,
+            "beauty": 24,
+            "conv": 8
+          }
+        },
+        {
+          "name": "서빙고동",
+          "counts": {
+            "cafe": 17,
+            "food": 59,
+            "academy": 24,
+            "beauty": 11,
+            "conv": 11
+          }
+        },
+        {
+          "name": "용문동",
+          "counts": {
+            "cafe": 18,
+            "food": 140,
+            "academy": 24,
+            "beauty": 33,
+            "conv": 6
+          }
+        },
+        {
+          "name": "용산2가동",
+          "counts": {
+            "cafe": 63,
+            "food": 295,
+            "academy": 24,
+            "beauty": 17,
+            "conv": 18
+          }
+        },
+        {
+          "name": "원효로1동",
+          "counts": {
+            "cafe": 57,
+            "food": 316,
+            "academy": 44,
+            "beauty": 18,
+            "conv": 17
+          }
+        },
+        {
+          "name": "원효로2동",
+          "counts": {
+            "cafe": 21,
+            "food": 92,
+            "academy": 40,
+            "beauty": 20,
+            "conv": 11
+          }
+        },
+        {
+          "name": "이촌1동",
+          "counts": {
+            "cafe": 22,
+            "food": 151,
+            "academy": 36,
+            "beauty": 20,
+            "conv": 7
+          }
+        },
+        {
+          "name": "이촌2동",
+          "counts": {
+            "cafe": 3,
+            "food": 23,
+            "academy": 13,
+            "beauty": 6,
+            "conv": 4
+          }
+        },
+        {
+          "name": "이태원1동",
+          "counts": {
+            "cafe": 60,
+            "food": 652,
+            "academy": 23,
+            "beauty": 32,
+            "conv": 22
+          }
+        },
+        {
+          "name": "이태원2동",
+          "counts": {
+            "cafe": 49,
+            "food": 277,
+            "academy": 33,
+            "beauty": 30,
+            "conv": 12
+          }
+        },
+        {
+          "name": "청파동",
+          "counts": {
+            "cafe": 95,
+            "food": 451,
+            "academy": 37,
+            "beauty": 45,
+            "conv": 26
+          }
+        },
+        {
+          "name": "한강로동",
+          "counts": {
+            "cafe": 209,
+            "food": 1127,
+            "academy": 78,
+            "beauty": 68,
+            "conv": 45
+          }
+        },
+        {
+          "name": "한남동",
+          "counts": {
+            "cafe": 95,
+            "food": 657,
+            "academy": 93,
+            "beauty": 51,
+            "conv": 24
+          }
+        },
+        {
+          "name": "효창동",
+          "counts": {
+            "cafe": 23,
+            "food": 65,
+            "academy": 36,
+            "beauty": 6,
+            "conv": 8
+          }
+        },
+        {
+          "name": "후암동",
+          "counts": {
+            "cafe": 64,
+            "food": 225,
+            "academy": 54,
+            "beauty": 20,
+            "conv": 18
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 은평구",
+      "dongs": [
+        {
+          "name": "갈현1동",
+          "counts": {
+            "cafe": 47,
+            "food": 391,
+            "academy": 54,
+            "beauty": 57,
+            "conv": 15
+          }
+        },
+        {
+          "name": "갈현2동",
+          "counts": {
+            "cafe": 52,
+            "food": 347,
+            "academy": 143,
+            "beauty": 77,
+            "conv": 25
+          }
+        },
+        {
+          "name": "구산동",
+          "counts": {
+            "cafe": 35,
+            "food": 147,
+            "academy": 84,
+            "beauty": 59,
+            "conv": 16
+          }
+        },
+        {
+          "name": "녹번동",
+          "counts": {
+            "cafe": 59,
+            "food": 307,
+            "academy": 93,
+            "beauty": 62,
+            "conv": 30
+          }
+        },
+        {
+          "name": "대조동",
+          "counts": {
+            "cafe": 80,
+            "food": 562,
+            "academy": 85,
+            "beauty": 84,
+            "conv": 27
+          }
+        },
+        {
+          "name": "불광1동",
+          "counts": {
+            "cafe": 44,
+            "food": 282,
+            "academy": 70,
+            "beauty": 64,
+            "conv": 23
+          }
+        },
+        {
+          "name": "불광2동",
+          "counts": {
+            "cafe": 24,
+            "food": 230,
+            "academy": 56,
+            "beauty": 69,
+            "conv": 17
+          }
+        },
+        {
+          "name": "수색동",
+          "counts": {
+            "cafe": 18,
+            "food": 97,
+            "academy": 14,
+            "beauty": 17,
+            "conv": 5
+          }
+        },
+        {
+          "name": "신사1동",
+          "counts": {
+            "cafe": 38,
+            "food": 196,
+            "academy": 43,
+            "beauty": 66,
+            "conv": 18
+          }
+        },
+        {
+          "name": "신사2동",
+          "counts": {
+            "cafe": 20,
+            "food": 98,
+            "academy": 46,
+            "beauty": 32,
+            "conv": 13
+          }
+        },
+        {
+          "name": "역촌동",
+          "counts": {
+            "cafe": 84,
+            "food": 503,
+            "academy": 142,
+            "beauty": 129,
+            "conv": 38
+          }
+        },
+        {
+          "name": "응암1동",
+          "counts": {
+            "cafe": 64,
+            "food": 323,
+            "academy": 115,
+            "beauty": 59,
+            "conv": 23
+          }
+        },
+        {
+          "name": "응암2동",
+          "counts": {
+            "cafe": 18,
+            "food": 129,
+            "academy": 62,
+            "beauty": 35,
+            "conv": 12
+          }
+        },
+        {
+          "name": "응암3동",
+          "counts": {
+            "cafe": 61,
+            "food": 480,
+            "academy": 57,
+            "beauty": 72,
+            "conv": 23
+          }
+        },
+        {
+          "name": "증산동",
+          "counts": {
+            "cafe": 18,
+            "food": 118,
+            "academy": 45,
+            "beauty": 32,
+            "conv": 13
+          }
+        },
+        {
+          "name": "진관동",
+          "counts": {
+            "cafe": 81,
+            "food": 377,
+            "academy": 141,
+            "beauty": 44,
+            "conv": 28
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 종로구",
+      "dongs": [
+        {
+          "name": "가회동",
+          "counts": {
+            "cafe": 58,
+            "food": 225,
+            "academy": 26,
+            "beauty": 5,
+            "conv": 7
+          }
+        },
+        {
+          "name": "교남동",
+          "counts": {
+            "cafe": 24,
+            "food": 87,
+            "academy": 23,
+            "beauty": 11,
+            "conv": 12
+          }
+        },
+        {
+          "name": "무악동",
+          "counts": {
+            "cafe": 13,
+            "food": 38,
+            "academy": 17,
+            "beauty": 5,
+            "conv": 6
+          }
+        },
+        {
+          "name": "부암동",
+          "counts": {
+            "cafe": 33,
+            "food": 122,
+            "academy": 36,
+            "beauty": 10,
+            "conv": 12
+          }
+        },
+        {
+          "name": "사직동",
+          "counts": {
+            "cafe": 180,
+            "food": 970,
+            "academy": 64,
+            "beauty": 31,
+            "conv": 23
+          }
+        },
+        {
+          "name": "삼청동",
+          "counts": {
+            "cafe": 69,
+            "food": 236,
+            "academy": 12,
+            "beauty": 2,
+            "conv": 6
+          }
+        },
+        {
+          "name": "숭인1동",
+          "counts": {
+            "cafe": 9,
+            "food": 56,
+            "academy": 11,
+            "beauty": 11,
+            "conv": 5
+          }
+        },
+        {
+          "name": "숭인2동",
+          "counts": {
+            "cafe": 27,
+            "food": 201,
+            "academy": 18,
+            "beauty": 18,
+            "conv": 21
+          }
+        },
+        {
+          "name": "이화동",
+          "counts": {
+            "cafe": 95,
+            "food": 355,
+            "academy": 34,
+            "beauty": 9,
+            "conv": 19
+          }
+        },
+        {
+          "name": "종로1.2.3.4가동",
+          "counts": {
+            "cafe": 396,
+            "food": 2445,
+            "academy": 193,
+            "beauty": 58,
+            "conv": 93
+          }
+        },
+        {
+          "name": "종로5.6가동",
+          "counts": {
+            "cafe": 93,
+            "food": 542,
+            "academy": 22,
+            "beauty": 25,
+            "conv": 19
+          }
+        },
+        {
+          "name": "창신1동",
+          "counts": {
+            "cafe": 25,
+            "food": 244,
+            "academy": 9,
+            "beauty": 21,
+            "conv": 9
+          }
+        },
+        {
+          "name": "창신2동",
+          "counts": {
+            "cafe": 16,
+            "food": 122,
+            "academy": 3,
+            "beauty": 19,
+            "conv": 4
+          }
+        },
+        {
+          "name": "창신3동",
+          "counts": {
+            "cafe": 8,
+            "food": 28,
+            "academy": 7,
+            "beauty": 11,
+            "conv": 3
+          }
+        },
+        {
+          "name": "청운효자동",
+          "counts": {
+            "cafe": 84,
+            "food": 291,
+            "academy": 46,
+            "beauty": 16,
+            "conv": 9
+          }
+        },
+        {
+          "name": "평창동",
+          "counts": {
+            "cafe": 30,
+            "food": 136,
+            "academy": 45,
+            "beauty": 16,
+            "conv": 10
+          }
+        },
+        {
+          "name": "혜화동",
+          "counts": {
+            "cafe": 123,
+            "food": 615,
+            "academy": 65,
+            "beauty": 37,
+            "conv": 28
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 중구",
+      "dongs": [
+        {
+          "name": "광희동",
+          "counts": {
+            "cafe": 102,
+            "food": 650,
+            "academy": 19,
+            "beauty": 24,
+            "conv": 42
+          }
+        },
+        {
+          "name": "다산동",
+          "counts": {
+            "cafe": 41,
+            "food": 225,
+            "academy": 34,
+            "beauty": 20,
+            "conv": 13
+          }
+        },
+        {
+          "name": "동화동",
+          "counts": {
+            "cafe": 25,
+            "food": 124,
+            "academy": 23,
+            "beauty": 25,
+            "conv": 8
+          }
+        },
+        {
+          "name": "명동",
+          "counts": {
+            "cafe": 256,
+            "food": 1163,
+            "academy": 39,
+            "beauty": 61,
+            "conv": 71
+          }
+        },
+        {
+          "name": "소공동",
+          "counts": {
+            "cafe": 157,
+            "food": 748,
+            "academy": 20,
+            "beauty": 20,
+            "conv": 51
+          }
+        },
+        {
+          "name": "신당5동",
+          "counts": {
+            "cafe": 19,
+            "food": 272,
+            "academy": 10,
+            "beauty": 25,
+            "conv": 7
+          }
+        },
+        {
+          "name": "신당동",
+          "counts": {
+            "cafe": 56,
+            "food": 339,
+            "academy": 12,
+            "beauty": 21,
+            "conv": 26
+          }
+        },
+        {
+          "name": "약수동",
+          "counts": {
+            "cafe": 27,
+            "food": 149,
+            "academy": 34,
+            "beauty": 31,
+            "conv": 9
+          }
+        },
+        {
+          "name": "을지로동",
+          "counts": {
+            "cafe": 126,
+            "food": 761,
+            "academy": 18,
+            "beauty": 14,
+            "conv": 34
+          }
+        },
+        {
+          "name": "장충동",
+          "counts": {
+            "cafe": 31,
+            "food": 156,
+            "academy": 7,
+            "beauty": 7,
+            "conv": 12
+          }
+        },
+        {
+          "name": "중림동",
+          "counts": {
+            "cafe": 41,
+            "food": 212,
+            "academy": 15,
+            "beauty": 20,
+            "conv": 12
+          }
+        },
+        {
+          "name": "청구동",
+          "counts": {
+            "cafe": 14,
+            "food": 57,
+            "academy": 32,
+            "beauty": 17,
+            "conv": 6
+          }
+        },
+        {
+          "name": "필동",
+          "counts": {
+            "cafe": 99,
+            "food": 498,
+            "academy": 25,
+            "beauty": 19,
+            "conv": 27
+          }
+        },
+        {
+          "name": "황학동",
+          "counts": {
+            "cafe": 26,
+            "food": 314,
+            "academy": 17,
+            "beauty": 26,
+            "conv": 9
+          }
+        },
+        {
+          "name": "회현동",
+          "counts": {
+            "cafe": 144,
+            "food": 588,
+            "academy": 10,
+            "beauty": 31,
+            "conv": 36
+          }
+        }
+      ]
+    },
+    {
+      "name": "서울 중랑구",
+      "dongs": [
+        {
+          "name": "망우3동",
+          "counts": {
+            "cafe": 17,
+            "food": 107,
+            "academy": 22,
+            "beauty": 35,
+            "conv": 15
+          }
+        },
+        {
+          "name": "망우본동",
+          "counts": {
+            "cafe": 75,
+            "food": 538,
+            "academy": 78,
+            "beauty": 94,
+            "conv": 42
+          }
+        },
+        {
+          "name": "면목2동",
+          "counts": {
+            "cafe": 34,
+            "food": 287,
+            "academy": 46,
+            "beauty": 69,
+            "conv": 28
+          }
+        },
+        {
+          "name": "면목3.8동",
+          "counts": {
+            "cafe": 53,
+            "food": 406,
+            "academy": 44,
+            "beauty": 77,
+            "conv": 19
+          }
+        },
+        {
+          "name": "면목4동",
+          "counts": {
+            "cafe": 20,
+            "food": 123,
+            "academy": 40,
+            "beauty": 42,
+            "conv": 15
+          }
+        },
+        {
+          "name": "면목5동",
+          "counts": {
+            "cafe": 15,
+            "food": 92,
+            "academy": 14,
+            "beauty": 28,
+            "conv": 9
+          }
+        },
+        {
+          "name": "면목7동",
+          "counts": {
+            "cafe": 37,
+            "food": 218,
+            "academy": 37,
+            "beauty": 55,
+            "conv": 14
+          }
+        },
+        {
+          "name": "면목본동",
+          "counts": {
+            "cafe": 36,
+            "food": 408,
+            "academy": 56,
+            "beauty": 74,
+            "conv": 28
+          }
+        },
+        {
+          "name": "묵1동",
+          "counts": {
+            "cafe": 52,
+            "food": 258,
+            "academy": 63,
+            "beauty": 54,
+            "conv": 24
+          }
+        },
+        {
+          "name": "묵2동",
+          "counts": {
+            "cafe": 32,
+            "food": 253,
+            "academy": 34,
+            "beauty": 48,
+            "conv": 15
+          }
+        },
+        {
+          "name": "상봉1동",
+          "counts": {
+            "cafe": 32,
+            "food": 176,
+            "academy": 50,
+            "beauty": 37,
+            "conv": 22
+          }
+        },
+        {
+          "name": "상봉2동",
+          "counts": {
+            "cafe": 59,
+            "food": 586,
+            "academy": 39,
+            "beauty": 70,
+            "conv": 34
+          }
+        },
+        {
+          "name": "신내1동",
+          "counts": {
+            "cafe": 56,
+            "food": 279,
+            "academy": 98,
+            "beauty": 45,
+            "conv": 19
+          }
+        },
+        {
+          "name": "신내2동",
+          "counts": {
+            "cafe": 25,
+            "food": 113,
+            "academy": 84,
+            "beauty": 30,
+            "conv": 11
+          }
+        },
+        {
+          "name": "중화1동",
+          "counts": {
+            "cafe": 16,
+            "food": 91,
+            "academy": 52,
+            "beauty": 36,
+            "conv": 19
+          }
+        },
+        {
+          "name": "중화2동",
+          "counts": {
+            "cafe": 37,
+            "food": 347,
+            "academy": 30,
+            "beauty": 61,
+            "conv": 21
           }
         }
       ]

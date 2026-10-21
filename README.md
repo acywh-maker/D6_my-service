@@ -16,22 +16,22 @@
 ### ① 소상공인시장진흥공단 상가(상권)정보 (공공데이터포털)
 | 칸 | 내용 |
 | --- | --- |
-| ① 기본 주소 | |
-| ② 메뉴 | |
-| ③ 옵션 | |
-| ④ 응답 모양 | |
-| ⑤ 키 | 필요함 → 화면에서는 부르지 않고, 미리 받아 둔 스냅샷 데이터만 사용 |
-| ⑥ 규칙 | |
+| ① 기본 주소 | `https://apis.data.go.kr/B553077/api/open/sdsc2` |
+| ② 메뉴 | `/storeListInDong` — 행정구역 단위 상가업소 조회 |
+| ③ 옵션 | `divId=signguCd`(시군구 단위), `key=11440`(마포구)·`11680`(강남구), `numOfRows=1000`, `pageNo=1,2,3…`, `type=json` |
+| ④ 응답 모양 | `header.resultCode`("00"=정상), `body.totalCount`(전체 가게 수), `body.items[]` 안에 `adongNm`(행정동), `indsLclsNm`·`indsMclsNm`·`indsSclsNm`(업종 대·중·소분류) |
+| ⑤ 키 | 필요함(`serviceKey`) → 화면에서는 부르지 않고, `tools/fetch-snapshot.mjs`로 내 PC에서만 받아 둔 스냅샷 데이터 사용 (2026-10-21 기준, 키는 `.env`에만 보관) |
+| ⑥ 규칙 | 이용허락범위 제한 없음 · 개발계정 하루 10,000번 (스냅샷 1번 받는 데 약 100번) · 출처 표기 |
 
 ### ② Nager.Date 공휴일
 | 칸 | 내용 |
 | --- | --- |
-| ① 기본 주소 | |
-| ② 메뉴 | |
-| ③ 옵션 | |
-| ④ 응답 모양 | |
-| ⑤ 키 | |
-| ⑥ 규칙 | |
+| ① 기본 주소 | `https://date.nager.at/api/v3` |
+| ② 메뉴 | `/NextPublicHolidays/{나라코드}` — 오늘부터 1년 안의 공휴일 |
+| ③ 옵션 | 나라코드 `KR` |
+| ④ 응답 모양 | 배열 `[{ date: "2026-12-25", localName: "크리스마스", name: "Christmas Day", ... }]` |
+| ⑤ 키 | 필요 없음 (화면을 열 때마다 바로 불러옴) |
+| ⑥ 규칙 | 출처 "Holidays by Nager.Date" 표기 · 이름은 한국어 `localName` 사용 |
 
 ## 데이터 출처
 - 자료: 소상공인시장진흥공단 상가(상권)정보 (공공데이터포털 data.go.kr)

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>우리 동네 상권 타겟 찾기</title>
+<style>
+  :root {
+    --bg: #F5F7FA;
+    --surface: #FFFFFF;
+    --text: #1F2937;        /* 흰 배경 대비 약 14:1 */
+    --text-sub: #4B5563;    /* 흰 배경 대비 약 7.5:1 */
+    --primary: #1D4ED8;     /* 흰 글자 대비 약 6.7:1 */
+    --primary-soft: #EEF2FF;
+    --error: #B91C1C;
+    --error-soft: #FEF2F2;
+    --line: #E5E7EB;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    line-height: 1.5;
+    word-break: keep-all;
+  }
+  .wrap {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 32px 16px 48px;
+  }
+  h1 { font-size: 22px; font-weight: 700; }
+  .intro { color: var(--text-sub); font-size: 15px; margin-top: 4px; }
+
+  .card {
+    background: var(--surface);
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);   /* 머티리얼: 낮은 그림자 한 단계 */
+  }
+  .card h2 { font-size: 17px; font-weight: 700; }
+  .placeholder { color: var(--text-sub); font-size: 15px; margin-top: 8px; }
+
+  .api-box {
+    margin-top: 32px;
+    padding: 16px;
+    border-radius: 12px;
+    background: var(--primary-soft);
+    font-size: 14px;
+  }
+  .api-box h2 { font-size: 15px; margin-bottom: 8px; }
+  .api-box p { color: var(--text-sub); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>우리 동네 상권 타겟 찾기</h1>
+  <p class="intro">전단·지역 광고, 어느 동네에 뿌릴까? 업종별 가게 수로 타겟 동네를 골라 드려요.</p>
+
+  <!-- Issue #1: 타겟 동네 TOP 5 카드 자리 -->
+  <section class="card" id="top5-card">
+    <h2>타겟 동네 TOP 5</h2>
+    <p class="placeholder">곧 만들어요.</p>
+  </section>
+
+  <!-- Issue #2: 다음 공휴일 D-day 카드 자리 -->
+  <section class="card" id="holiday-card">
+    <h2>다음 공휴일 D-day</h2>
+    <p class="placeholder">곧 만들어요.</p>
+  </section>
+
+  <!-- Issue #3: 홍보 문구 초안 카드 자리 -->
+  <section class="card" id="copy-card">
+    <h2>홍보 문구 초안</h2>
+    <p class="placeholder">곧 만들어요.</p>
+  </section>
+
+  <!-- 🔌 이 화면이 쓰는 API 상자 자리 (기능을 만들면서 채워요) -->
+  <section class="api-box">
+    <h2>🔌 이 화면이 쓰는 API</h2>
+    <p>아직 부르는 API가 없어요.</p>
+  </section>
+</div>
+
+<script>
+  // 🔌 API 주소는 여기 한 곳에만 모아요. (기능을 만들면서 채워요)
+  const API = {};
+</script>
+</body>
+</html>

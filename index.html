@@ -234,6 +234,43 @@
   }
   .api-box a { display: inline-block; margin-top: 8px; color: var(--primary); font-weight: 700; text-underline-offset: 4px; }
 
+  /* 공휴일 D-day 카드 */
+  .loading-text { color: var(--muted-foreground); font-size: 13px; margin-top: 12px; }
+  .dday-row { display: flex; align-items: center; gap: 16px; margin-top: 16px; }
+  .dday {
+    flex-shrink: 0;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--primary);
+  }
+  .holiday-name { font-size: 20px; font-weight: 700; line-height: 1.3; }
+  .holiday-date { color: var(--muted-foreground); font-size: 14px; margin-top: 2px; }
+  .holiday-next { list-style: none; margin-top: 20px; border-top: 1px solid var(--border); }
+  .holiday-next li {
+    display: flex; justify-content: space-between; gap: 8px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+  }
+  .holiday-next li span { color: var(--muted-foreground); white-space: nowrap; }
+  .btn {
+    margin-top: 12px;
+    height: 40px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 10px;
+    background: var(--primary);
+    color: var(--primary-foreground);
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.12);
+  }
+  .btn:active { transform: scale(0.97); }
+
   /* 📐 화면이 768px 이상이면: 선택 영역 가로, 카드 2단 */
   @media (min-width: 768px) {
     .wrap { padding: 32px 32px 64px; }
@@ -284,14 +321,11 @@
     </section>
 
     <div class="side">
-      <!-- Issue #2: 다음 공휴일 D-day 카드 자리 -->
+      <!-- Issue #2: 다음 공휴일 D-day -->
       <section class="card" id="holiday-card">
         <h2>다음 공휴일 D-day</h2>
-        <div class="skeleton-group" aria-hidden="true">
-          <span class="skeleton" style="width:40%; height:28px"></span>
-          <span class="skeleton" style="width:70%"></span>
-        </div>
-        <p class="placeholder">곧 만들어요.</p>
+        <p class="card-desc">공휴일에 맞춰 프로모션 타이밍을 잡아요.</p>
+        <div id="holiday-body" aria-live="polite"></div>
       </section>
 
       <!-- Issue #3: 홍보 문구 초안 카드 자리 -->
@@ -307,7 +341,7 @@
     </div>
   </div>
 
-  <p class="credit">자료: 소상공인시장진흥공단 상가(상권)정보 (공공데이터포털)</p>
+  <p class="credit">자료: 소상공인시장진흥공단 상가(상권)정보 (공공데이터포털) · Holidays by Nager.Date</p>
 
   <section class="api-box">
     <h2>🔌 이 화면이 쓰는 API</h2>
@@ -317,6 +351,11 @@
     <code id="store-api"></code>
     <p id="store-date"></p>
     <a id="store-doc" href="#" target="_blank" rel="noopener">API 문서 보기 (공공데이터포털) ↗</a>
+
+    <h3>Nager.Date 공휴일 (키 없음)</h3>
+    <p>앞으로 1년 안의 대한민국 공휴일 목록을 화면을 열 때마다 불러와요.</p>
+    <code id="holiday-api"></code>
+    <a id="holiday-raw" href="#" target="_blank" rel="noopener">새 탭에서 원본 JSON 보기 ↗</a>
   </section>
 </div>
 
@@ -325,6 +364,7 @@
   const API = {
     storeDoc: "https://www.data.go.kr/data/15012005/openapi.do", // 🔌 상가(상권)정보 문서 (화면에서 호출하지 않음)
     storeEndpoint: "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInDong", // 🔌 스냅샷을 받을 때 쓴 주소 (키 제외)
+    holidays: "https://date.nager.at/api/v3/NextPublicHolidays/KR", // 🔌 Nager.Date 다음 공휴일 (키 없음)
   };
 
   // 📦 상가정보 스냅샷 — 2026-10-21에 data.go.kr에서 받은 실제 데이터예요 (tools/fetch-snapshot.mjs로 받음, 키는 넣지 않음).
@@ -392,7 +432,8 @@
   };
 
   // 지금 고른 값 (Issue #3 홍보 문구도 이 값을 같이 써요)
-  const state = { districtIndex: 0, categoryId: SNAPSHOT.categories[0].id };
+  //   holiday: 다음 공휴일 { localName, date } — 불러오기 전이나 실패하면 null
+  const state = { districtIndex: 0, categoryId: SNAPSHOT.categories[0].id, holiday: null };
 
   // 고른 구·업종으로 가게 수가 많은 동네 5곳
   function getTop5() {
@@ -474,6 +515,91 @@
     });
   }
 
+  // ── Issue #2: 다음 공휴일 D-day ──
+
+  // API 글자를 화면에 넣기 전에 HTML 기호를 글자로 바꿔요
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  // "2026-12-25" → 오늘 기준 며칠 남았는지 (시간은 빼고 날짜만 비교)
+  function daysUntil(dateStr) {
+    const [y, m, d] = dateStr.split("-").map(Number);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return Math.round((new Date(y, m - 1, d) - today) / 86400000);
+  }
+
+  function formatDate(dateStr) {
+    const [y, m, d] = dateStr.split("-").map(Number);
+    return new Date(y, m - 1, d).toLocaleDateString("ko-KR", { year: "numeric", month: "long", day: "numeric", weekday: "short" });
+  }
+
+  const ddayText = n => n === 0 ? "D-DAY" : `D-${n}`;
+
+  function renderHolidayLoading() {
+    document.getElementById("holiday-body").innerHTML = `
+      <div class="skeleton-group" aria-hidden="true">
+        <span class="skeleton" style="width:40%; height:36px"></span>
+        <span class="skeleton" style="width:70%"></span>
+      </div>
+      <p class="loading-text">공휴일을 불러오는 중이에요…</p>`;
+  }
+
+  function renderHolidayError() {
+    document.getElementById("holiday-body").innerHTML = `
+      <div class="error">
+        <strong>공휴일을 불러오지 못했어요 😢</strong>
+        인터넷 연결을 확인하고 다시 시도해 주세요. 다른 카드는 그대로 쓸 수 있어요.
+      </div>
+      <button type="button" class="btn" id="holiday-retry">다시 시도</button>`;
+    document.getElementById("holiday-retry").addEventListener("click", loadHoliday);
+  }
+
+  function renderHoliday(list) {
+    const body = document.getElementById("holiday-body");
+    const upcoming = list.filter(h => daysUntil(h.date) >= 0);
+    if (upcoming.length === 0) {
+      body.innerHTML = `<p class="loading-text">앞으로 1년 안에 예정된 공휴일이 없어요.</p>`;
+      return;
+    }
+    const [first, ...rest] = upcoming;
+    const today = new Date().toLocaleDateString("ko-KR", { year: "numeric", month: "long", day: "numeric" });
+
+    // 한국어 이름(localName)을 써요 — name은 영어라 헷갈려요
+    body.innerHTML = `
+      <div class="dday-row">
+        <span class="dday">${ddayText(daysUntil(first.date))}</span>
+        <div>
+          <p class="holiday-name">${esc(first.localName)}</p>
+          <p class="holiday-date">${formatDate(first.date)}</p>
+        </div>
+      </div>
+      ${rest.length ? `
+      <ul class="holiday-next">
+        ${rest.slice(0, 2).map(h => `
+          <li><b>${esc(h.localName)}</b><span>${formatDate(h.date)} · ${ddayText(daysUntil(h.date))}</span></li>`).join("")}
+      </ul>` : ""}
+      <p class="meta">오늘(${today}) 기준 · Holidays by Nager.Date</p>`;
+  }
+
+  async function loadHoliday() {
+    renderHolidayLoading();
+    try {
+      const res = await fetch(API.holidays); // 🔌 API 호출
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const list = await res.json();
+      state.holiday = list.find(h => daysUntil(h.date) >= 0) || null;
+      renderHoliday(list);
+    } catch (err) {
+      console.error("공휴일 불러오기 실패:", err);
+      state.holiday = null;
+      renderHolidayError();
+    }
+    // Issue #3: 여기서 홍보 문구 카드도 다시 그려요 (TOP5는 다시 그리지 않아 막대가 두 번 움직이지 않게)
+  }
+
+  document.getElementById("holiday-api").textContent = API.holidays;
+  document.getElementById("holiday-raw").href = API.holidays;
+
   document.getElementById("store-api").textContent = API.storeEndpoint;
   document.getElementById("store-doc").href = API.storeDoc;
   document.getElementById("store-date").textContent =
@@ -481,6 +607,7 @@
 
   setupControls();
   renderAll();
+  loadHoliday();   // TOP5와 따로 불러요 — 공휴일이 실패해도 TOP5는 보여요
 </script>
 </body>
 </html>
